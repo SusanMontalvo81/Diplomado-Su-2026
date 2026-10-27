@@ -2,6 +2,9 @@
 
     .venv-ocr/bin/python ocr_corpus.py [--modelo paddle|tesseract] [--ids doc_001,doc_002]
 
+Tesseract (Parte 2) necesita modelos/tessdata/spa.traineddata:
+    curl -L -o modelos/tessdata/spa.traineddata https://github.com/tesseract-ocr/tessdata/raw/4.1.0/spa.traineddata
+
 Configuración fija (decidida antes de ver métricas; no se ajusta con la muestra de evaluación):
 - PaddleOCR 3.0.3 sobre PaddlePaddle 3.0.0 (lo último que corre en Mac Intel), CPU.
 - Detección PP-OCRv5_mobile_det + reconocimiento PP-OCRv5_mobile_rec. Los modelos server se
@@ -27,7 +30,7 @@ AQUI = Path(__file__).resolve().parent
 DOCS = AQUI / "datos" / "raw" / "documentos"
 CONFIG = {
     "paddle": "PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
-    "tesseract": "Tesseract 5 (lang=spa, --oem 1 LSTM, --psm 3 segmentación automática)",
+    "tesseract": "Tesseract 5.5.1 (tesserocr 2.9.1, spa de tessdata 4.1.0, OEM LSTM, PSM 3 segmentación automática)",
 }
 
 
@@ -81,17 +84,26 @@ class OCRPaddle:
 
 
 class OCRTesseract:
+    """Tesseract vía tesserocr (trae la librería incluida: no hace falta Homebrew).
+
+    El orden de lectura lo da el análisis de página del propio Tesseract (PSM 3), que ya separa columnas.
+    """
+
+    def __init__(self):
+        from tesserocr import OEM, PSM, PyTessBaseAPI
+        self.api = PyTessBaseAPI(path=str(AQUI / "modelos" / "tessdata"), lang="spa", psm=PSM.AUTO, oem=OEM.LSTM_ONLY)
+
     def leer(self, ruta, carpeta):
-        import pytesseract
         from PIL import Image
-        d = pytesseract.image_to_data(Image.open(ruta), lang="spa", config="--oem 1 --psm 3",
-                                      output_type=pytesseract.Output.DATAFRAME)
-        d = d[(d["conf"] >= 0) & d["text"].fillna("").str.strip().ne("")]
+        from tesserocr import RIL, iterate_level
+        self.api.SetImage(Image.open(ruta))
+        self.api.Recognize()
         lineas = []
-        for _, g in d.groupby(["block_num", "par_num", "line_num"], sort=True):
-            lineas.append({"texto": " ".join(g["text"].astype(str)), "confianza": float(g["conf"].mean()) / 100,
-                           "caja": [float(g["left"].min()), float(g["top"].min()),
-                                    float((g["left"] + g["width"]).max()), float((g["top"] + g["height"]).max())]})
+        for r in iterate_level(self.api.GetIterator(), RIL.TEXTLINE):
+            texto = (r.GetUTF8Text(RIL.TEXTLINE) or "").strip()
+            if texto:
+                lineas.append({"texto": texto, "confianza": r.Confidence(RIL.TEXTLINE) / 100,
+                               "caja": [float(v) for v in r.BoundingBox(RIL.TEXTLINE)]})
         return lineas
 
 

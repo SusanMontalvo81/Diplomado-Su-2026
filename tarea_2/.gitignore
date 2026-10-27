@@ -24,3 +24,4 @@ modelos/checkpoint-*/
 
 # Sistema
 .DS_Store
+modelos/tessdata/
