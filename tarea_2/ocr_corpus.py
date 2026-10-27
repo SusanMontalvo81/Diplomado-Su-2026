@@ -130,11 +130,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--modelo", default="paddle", choices=CONFIG)
     ap.add_argument("--ids", default="")
+    ap.add_argument("--recortes", action="store_true", help="leer datos/raw/documentos/recortes/ (Parte 2)")
     args = ap.parse_args()
     inv = pd.read_csv(DOCS / "inventario.csv")
+    if args.recortes:
+        inv["archivo"] = "datos/raw/documentos/recortes/" + inv["id"] + ".png"
+        inv = inv[[(AQUI / a).exists() for a in inv["archivo"]]]
     if args.ids:
         inv = inv[inv["id"].isin(args.ids.split(","))]
-    carpeta = DOCS / "ocr" / args.modelo
+    carpeta = DOCS / "ocr" / (args.modelo + ("-recorte" if args.recortes else ""))
     carpeta.mkdir(parents=True, exist_ok=True)
     t0 = time.perf_counter()
     motor = {"paddle": OCRPaddle, "paddle-base": OCRPaddleBase, "tesseract": OCRTesseract}[args.modelo]()
@@ -158,8 +162,8 @@ def main():
         filas.append({"id": d["id"], "texto_ocr": "\n".join(l["texto"] for l in d["lineas"]),
                       "n_lineas": len(d["lineas"]), "confianza_media": round(float(np.mean([l["confianza"] for l in d["lineas"]])) if d["lineas"] else 0, 3),
                       "segundos": d["segundos"], "modelo_ocr": d["modelo_ocr"]})
-    pd.DataFrame(filas).to_csv(DOCS / "ocr" / f"resumen_{args.modelo}.csv", index=False)
-    print("listo:", DOCS / "ocr" / f"resumen_{args.modelo}.csv", flush=True)
+    pd.DataFrame(filas).to_csv(DOCS / "ocr" / f"resumen_{carpeta.name}.csv", index=False)
+    print("listo:", DOCS / "ocr" / f"resumen_{carpeta.name}.csv", flush=True)
 
 
 if __name__ == "__main__":
