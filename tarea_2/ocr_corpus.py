@@ -30,6 +30,7 @@ AQUI = Path(__file__).resolve().parent
 DOCS = AQUI / "datos" / "raw" / "documentos"
 CONFIG = {
     "paddle": "PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+    "paddle-base": "PaddleOCR 3.0.3 por defecto (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, orientación + desdoblado UVDoc + orientación de línea, CPU)",
     "tesseract": "Tesseract 5.5.1 (tesserocr 2.9.1, spa de tessdata 4.1.0, OEM LSTM, PSM 3 segmentación automática)",
 }
 
@@ -83,6 +84,24 @@ class OCRPaddle:
         return [{"texto": textos[i], "confianza": conf[i], "caja": cajas[i].tolist()} for i in orden]
 
 
+class OCRPaddleBase:
+    """Línea base de la Parte 2: PaddleOCR sin personalizar. Solo se cambian los modelos server por
+    los mobile (los server no corren en este CPU); el resto queda con los valores por defecto,
+    incluido el orden de lectura que devuelve Paddle."""
+
+    def __init__(self):
+        from paddleocr import PaddleOCR
+        self.ocr = PaddleOCR(text_detection_model_name="PP-OCRv5_mobile_det",
+                             text_recognition_model_name="PP-OCRv5_mobile_rec")
+
+    def leer(self, ruta, carpeta):
+        r = self.ocr.predict(str(ruta))[0]
+        r.save_to_img(str(carpeta))
+        cajas = np.array(r["rec_boxes"], float).reshape(-1, 4)
+        return [{"texto": t, "confianza": float(s), "caja": c.tolist()}
+                for t, s, c in zip(r["rec_texts"], r["rec_scores"], cajas)]
+
+
 class OCRTesseract:
     """Tesseract vía tesserocr (trae la librería incluida: no hace falta Homebrew).
 
@@ -118,7 +137,7 @@ def main():
     carpeta = DOCS / "ocr" / args.modelo
     carpeta.mkdir(parents=True, exist_ok=True)
     t0 = time.perf_counter()
-    motor = OCRPaddle() if args.modelo == "paddle" else OCRTesseract()
+    motor = {"paddle": OCRPaddle, "paddle-base": OCRPaddleBase, "tesseract": OCRTesseract}[args.modelo]()
     print(f"{args.modelo} cargado en {time.perf_counter() - t0:.0f} s", flush=True)
     for fila in inv.itertuples():
         salida = carpeta / f"{fila.id}.json"
