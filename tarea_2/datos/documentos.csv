@@ -1,0 +1,2140 @@
+id,archivo,tipo,fuente,texto_ocr,modelo_ocr,texto_referencia
+doc_001,datos/raw/documentos/doc_001.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","CATALOGO DE PERIODICOS
+CUSQUENOS
+DEL SIGLO XIX
+UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD
+DEL CUSCO
+BIBLIOTECA CENTRAL-HEMEROTECA
+ARCHIVO DEPARTAMENTAL DEL CUSCO
+ESTUDIO DE LUIS MIGUEL GLAVE
+CON COLABORACION DE DONATO AMADO
+Universidad Nacional San Antonio Abad del Cusco
+Archivo Departamental del Cusco
+Centro de Estudios Regionales Andinos Bartolomé de Las Casas","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_002,datos/raw/documentos/doc_002.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","ARCHIVOS DE HISTORIA ANDINA
+34
+CBC-SID
+Glave Testino, Luis Miguel
+Catálogo de periódicos cusqueños del siglo XIX : Universidad Nacional de
+San Antonio Abad del Cusco,. Biblioteca Central-Hemeroteca, Archivo Depar-
+tamental del Cusco / estudio de Luis Miguel Glave con colaboración de Donato
+Amado. - Cusco : Universidad Nacional San Antonio Abad del Cusco; Archivo
+Departamental del Cusco ; CBC, 1999.
+72 p. - (Archivos de Historia Andina, 34)
+1. Periódicos - Catálogos - Siglo XIX 2. Fuentes históricas - Siglo XIX 3. Pu-
+blicaciones periódicas - Catálogos - Siglo XIX 4. Perú - Cusco I. Autor II.
+Coautor II. Titulo
+20.07.06.06
+©
+Derechos Reservados
+Archivo Departamental del Cusco
+Avenida de la Cultura s/n.
+Cuidad Universitaria
+Biblioteca Central, 2do. Piso
+Telefax: (084) 233897
+Cusco, Perú
+CBC-Centro de Estudios Regionales Andinos ""Bartolomé de Las Casas""
+Pampa de la Alianza 465
+Apartado postal 477
+Telf.: (084)-234073
+Fax: (084)-245656
+Cusco, Perú
+E-mail: cbcimpta@apu.cbc.org.pe
+ISBN 9972-691-23-3
+ISSN 1022-0879
+Noviembre, 1999","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_003,datos/raw/documentos/doc_003.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","INDICE
+Periódicos cusqueños del siglo XIX
+Luis Miguel Glave
+Lista de Periódicos
+Catálogo de periódicos cusqueños del siglo XIx
+9
+39
+43","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_004,datos/raw/documentos/doc_004.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","PRESENTACION
+En la Hemeroteca de la Biblioteca Central de la Universidad Nacional San
+Antonio Abad del Cusco y en el Archivo Departamental del Cusco se han guardado
+periódicos del siglo XIX que en virtud a un convenio suscrito entre ambas institucio-
+nes y gracias al apoyo de una subvención otorgada por la Widener Library de la Uni-
+versidad de Harvard (EE.UU.) han sido restaurados, catalogados, registrados y
+puestos en servicio.
+La ""Colección de Periódicos Cusqueños del Siglo XIX"" incluye periódicos
+que se editaban en esta ciudad, como el ""Sol del Cusco"", ""Minerva del Cusco"",
+""Triunfo de la Libertad"", ""Cusco libre"", ""Heraldo del Cusco"", el ""Eco del Cusco"",
+""El Aguila de Condorcunca, semanario del Cusco"", así como de algunos periódicos
+de la Región que circulaban en Cusco por aquellas mismas épocas, tales como: ""E1
+Constitucional La Paz"", ""El Yanacocha Arequipa"", ""La Oliva de Ayacucho"", ""Esta-
+do Sud Peruano Sicuani"", ""El Eco Nacional Ayacucho"" y muchos otros.
+El trabajo fue realizado por el historiador cusqueño Donato Amado Gonzales,
+bajo la dirección de Luis Miguel Glave, contando con el apoyo de Jorge Polo y La
+Borda y Ricardo Valderrama Fernández, Directores del Archivo Departamental del
+Cusco y de la Biblioteca Central de la UNSAAC, respectivamente.
+La Universidad Nacional San Antonio Abad del Cusco y el Archivo Departa-
+mental del Cusco tienen el agrado de poner al servicio de la comunidad el ""Catálogo""
+que se publica en la presente edición.
+Mg. Mario Góngora Santa Cruz
+RECTOR UNSAAC
+7","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_005,datos/raw/documentos/doc_005.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","PRESENTACION
+En el siglo XIX hubo en la ciudad del Cusco una importantísima producción
+periodistica. Las más cotidianas vivencias del pueblo se transmitían a través de esas
+hojas periódicas. Jurito con los problemas y esperanzas del pueblo cusqueño, los ha-
+bitantes de la ciudad y la región vivian el nacimiento del Perú. Casi la totalidad de
+aquellos periódicos se han conservado en la Hemeroteca de la Biblioteca Central de
+la Universidad Nacional San Antonio Abad de Cusco y en el Archivo Departamental
+del Cusco.
+Aproximadamente el 80% de aquellos periódicos se encontraban encuaderna-
+dos en tomos que habian sido formados, en la mayoría de los casos, por los propios
+usuarios, quienes añadian papeles sueltos que iban apareciendo en las mismas épo-
+cas, así como los periódicos no cusqueños que circulaban en esta ciudad. De esta
+manera, se presentan conformando un todo indivisible, los propios periódicos edita-
+dos en Cusco, como los de otras ciudades y diversos papeles impresos en Cusco.
+En virtud a un convenio celebrado entre ambas instituciones se ha conformado
+la colección que consta de 117 tomos conteniendo publicaciones aparecidas entre
+1822 y 1900 y se ha realizado el trabajo de restauración, catalogación, registro y
+puesta en servicio. Todo ello fue ejecutado por el joven historiador cusqueño Donato
+Amado Gonzales, bajo la dirección de Luis Miguel Glave.
+El primer paso de este proyecto ha sido la elaboración del Catálogo de los pe-
+riódicos cusqueños, cuya versión definitiva acá se publica. A partir del Catálogo se
+ha formado un Registro que contiene la totalidad de periódicos (tanto los cusqueños
+como los foráneos) y todas las hojas sueltas que habían sido encuadernadas y que
+aparecen junto con los periódicos (bandos, proclamas, decretos, oficios, etc.). El re-
+sultado de este trabajo es una base de datos con 7,239 registros que se halla instalada
+en el Archivo Departamental del Cusco.
+El apoyo del Dr. Dan Hazen y la subvención otorgada por la Widener Library
+de la Universidad de Harvard (EE.UU.) han sido imprescindibles para todo este pro-
+yecto y la edición del Catálogo.
+Jorge Polo y La Borda
+Director del Archivo Departamental del Cusco
+8","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_006,datos/raw/documentos/doc_006.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","PERIODICOS CUSQUENOS DEL SIGLO XIX
+Luis Miguel Glave
+Una nueva fuente hemerográfica está al servicio de los investigadores. Se trata
+de la suma de las colecciones que se encontraban en el antiguo Archivo Histórico del
+Cusco hoy Archivo Departamental, la Hemeroteca de la Biblioteca de la Universidad
+Nacional San Antonio Abad y otras dependencias de esa Biblioteca Central. La co-
+lección tiene origen notarial y politico. A las publicaciones oficiales se unen las ho-
+jas, sueltos, bandos, libelos y hojas publicitarias que hacen la historia de la imprenta
+en el Departamento. Quien coleccionó esas hojas sumó a los periódicos oficiales toda
+la prensa eventual que se originaba en la región. Además, los periódicos de otras ciu-
+dades, que se leían en la ciudad, fueron añadidos a las colecciones, dejando un regis-
+tro de la importancia que en el tono politico tenían deferentes ciudades, como Are-
+quipa y Ayacucho.
+El origen de estas colecciones es muy variado, las principales fuentes de aco.
+pio fueron:
+1.- Tesoreria o Caja Fiscal del Departamento. Colección que se conserva en el
+Archivo Departamental del Cusco. Básicamente la colección del Registro Ofi-
+cial y su antecesor ministerial, el Triunfo del Pueblo.
+2.-En la Caja Fuerte de la Biblioteca Central, una colección casi completa del
+Triunfo del Pueblo (1844-1856), proveniente probablemente de la Prefectura.
+Completa lo que tenemos del Archivo Departamental.
+3.-La propia Biblioteca Universitaria.
+4.-Notaria Pública de Amadeo Fernández Baca, que conservaba la colección más
+importante, de uso probablemente notarial y politico.
+5.-La Prefectura del Departamento, algunos de sus ejemplares terminaron en la
+Biblioteca Universitaria.
+6.-Museo Arqueológico, importante dependencia de la Universidad.
+La posibilidad de tenerlos al servicio, debidamente catalogados, se debe a un
+proyecto de rescate, catalogación, conservación y puesta en uso de una colección
+única de periódicos provinciales peruanos del siglo XIX, apoyado por la Universidad
+de Harvard, con fondos de la Fundación Tavera y bajo la conducción del autor de
+estas páginas.
+9","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_007,datos/raw/documentos/doc_007.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","La prensa regional en el Perú del siglo XIX es todavia una fuente inexplorada.
+Las grandes colecciones de historia republicana han hecho uso de una muy pequeña
+parte de los periódicos publicados en las ciudades del interior del Perú'. Las contri-
+buciones monográficas se enriquecen fundamentalmente de estos periódicos, con es-
+cuetas citas de hojas muchas veces inhallables en repositorio alguno2. El acceso a
+estos periódicos sin embargo es mínimo y su conservación casi inexistente, salvo en
+colecciones particulares3. El incendio de la Biblioteca Nacional contribuyó a desapa-
+recer los pocos periódicos que llegaron a conservarse en Lima4.
+La manera más importante de comunicación y gobierno en las localidades era
+la prensa. Periódicos oficiales, hojas judiciales, prensa doctrinaria y de crónica social
+y cultural, proliferaron en las más importantes ciudades del Perú. Su vigencia e im-
+portancia era irremplazable en la medida que el centralismo de la capital y lo inco-
+municado del pais hacian imposible un flujo cotidiano de información y normativi-
+dad.
+Sobre los periódicos en la iniciación republicana, Basadre dice:
+""Como espejos rotos o fragmentarios que se pasearan por la realidad na-
+cional, los periódicos de la época fueron desde las más abstrusas divaga-
+ciones de aislados ideólogos hasta la más desenfrenada, mendaz y popular
+procacidad. De pequeños o mínimos formatos, no presentaban grandes
+desembolsos económicos en cuanto a su aparición misma, si bien se ca-
+racterizaban por su vida fugaz. No tenían crónicas o gacetillas en el senti-
+do moderno sino exponian opiniones, copiaban documentos, daban noti-
+cias escuetas e insertaban escasos avisos o ninguno. Escribian para ellos
+desde altos personajes de la politica que ocupaban ministerios o posicio-
+nes directivas en el Parlamento o en la vida intelectual, hasta grafómanos,
+demagogos y aprovechadores de todo jaez""5
+Así lo reconoce el gran historiador republicano Jorge Basadre, Introducción a las bases docu-
+mentales para la Historia de la Republica del Perú con algunas reflexiones. Ediciones
+P.L.Villanueva, Lima 1971. Ver la lista de publicaciones periódicas.
+Ver por ejemplo de Magnus Morner, Notas sobre el comercio y tos comerciantes del Cusco des-
+de fines de la colonia hasta 1930. Instituto de Estudios Peruanos, Lima 1979. La informada mo.
+nografia de Horacio Villanueva Urteaga, La Universidad Nacional de San Antonio Abad del
+Cusco (Cusco 1963), espiga datos de El Registro Oficial del Departamento, El Sol del Cusco, E1
+Ferrocarril, El Heraldo. Para mencionar sendos ejemplos.
+Existe un fondo hemerográfico en la Biblioteca Central de la Universidad de San Marcos, con
+algunas publicaciones regionales. Ver Alejandro Tumba Ortega, ""Periódicos nacionales del siglo
+XIX que existen en la Biblioteca Central de la Universidad Nacional Mayor de San Marcos"". En:
+Boletin Bibliográfico. Publicado por la Biblioteca central de la UNMSM (Lima 1944) N°s 3-4,
+pp.254-301
+Se puede tener una idea de los materiales que existian antes del incendio en el articulo de Manuel
+4
+de Odriozola, ""Catálogo de los periódicos nacionales existentes en la Biblioteca Nacional"". En:
+Boletin Bibliográfico. Publicado por la Biblioteca Central de la UNMSM (Lima 1924) Vol I, N°s
+10-14 pp.170-179 y N° 15 pp. 234-265. Actualmente, los fondos se han ido recuperando e incre-
+mentando, aunque todavia están sin una clasificación definitiva.
+Jorge Basadre, Historia de la República del Perú. Sexta edición, Aumentada y Corregida. Edito-
+5
+rial Universitaria (Lima 1969) II, p.410
+10","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_008,datos/raw/documentos/doc_008.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","Fragmentos que se pasean por la realidad nacional, se sumaban a formas toda-
+vía más eventuales, a veces viscerales y, sobre todo, determinantes en muchas cir-
+cunstancias de agitación politica y militar. Así en cuanto a la prensa y la difusión de
+impresos de parte de los jefes militares, el mismo historiador de la república afirma
+lo siguiente:
+""El ejército se volvió el gran elector. Sus ""pronunciamientos"", aunque su-
+cesivos y contradictorios, tuvieron sus ritos. Entre ellos figuran las actas o
+documentos en que una guarnición o un vecindario expresan sus motivos
+para el pronunciamiento o rebaten los argumentos emitidos a favor de él;
+las proclamas o comunicados de los caudillos o jefes alentando a sus par-
+tidarios, conminando al pais, condenando a sus enemigos; y los partes o
+relatos oficiales sobre el curso y resultados de los combates y batallas,
+verdadera sustitución de las gacetillas periodisticas, desconocidas enton-
+ces""6.
+Lo mismo puede decirse del lenguaje impreso de las llamadas corporaciones
+civiles. Esos documentos circulaban a manera de sueltos o como partes de los perió-
+dicos.
+De todas las provincias, fue el Cusco, a pesar de su estancamiento económico
+del siglo XIX, el lugar más prolifico de prensa escrita. Sólo comparable con otro lu-
+gar que conserva esa documentación: Ayacucho'. El Cusco tuvo una abundancia de
+prensa escrita desde cuando la imprenta oficial del Virrey se trasladó a la ciudad, su
+último refugio. Pasando por la inciación de la República, visitada la ciudad por Bolí-
+var, gobernada por Gamarra, antes de que éste se convirtiera en presidente del país,
+el Cusco estuvo a la vanguardia del periodismo. Luego durante la Confederación Pe-
+rú-Boliviana y su posterior disolución, ocurrió lo mismo. El caudillismo primero y el
+ensayo de patriotismo regional luego, hasta la Guerra del Pacifico, tuvieron en la
+prensa escrita una manifestación de primer interés, cuyos frutos en el conocimiento
+de la historia decimonónica del Perú están todavia por verse.
+La prensa regional es un venero incomparable tanto para la historia del Perú
+como para la historia regional. Muchas leyes, discusiones, informaciones, imágenes,
+peruanas y andinas (en la prensa regional rebotaba la situación de los vecinos: Boli-
+via, Chile y Argentina) sólo se encuentran en esas hojas provincianas.
+Lastimosamente, muchas de estas publicaciones se han perdido para siempre.
+En Cusco sin embargo, por suerte, se conservan todavia una parte importante de es-
+tos periódicos.
+Raúl Porras Barrenechea nos muestra la importancia que tuvo el cambio de
+actitud respecto a la prensa en la República. La colonia no tuvo periódicos, para eso
+Per: problema y posibilidad. Ensayo de una sintesis de la evolución histórica del Perú. F. y E.
+Rosay (Lima, 1931)253 pp.
+Ver de Simón Carrasco Apaico, Ayacucho dos siglos de periodismo s/i (Lima 1988). Pedro Ma-
+ñaricua, ""Un siglo de historia del periodismo en Ayacucho"" (Publicado originalmente en Hua-
+manga N°s 21-29 y 44-48) En: Boletin Bibliográfico, Biblioteca Central de la Universidad Na-
+cional Mayor de San Marcos, XIV N°s 1-2 (Lima 1944) pp.30-69
+11","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_009,datos/raw/documentos/doc_009.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","00Z00
+Ind. de I g12g m=M27
+Id. de Pp2d
+0100681001
+3
+2
+3056143258
+bhinto Aeinta y eins
+LXVII
+asa mimero einuenta y dos de la ealle de Sveni
+aa de eeba esislaJ.
+m PERSONA_42 y PERSONA_04 PERSONA_37 son
+duenos de la aasa musnero einerenba y dor de la ealle
+de Avemida oe esfa einda, por haberla eompprado
+de los potos PERSONA_39 PERSONA_27,
+D. Pancieo balvo y teandra Uneres en I suna de
+moveeientos soles, de la ertencion ae eienbo veinbe metos eua
+drados, aiendo suo hinderoo: al . le oaa de Enngue M
+mes del PERSONA_48; al d,la de PERSONA_41; al 4, la
+del Dr. Yehacon Garcia al O., la oalle de Auenida, segun
+eovefa de le eaeribura piblica de once de yulio ilt.
+no eborgaSa por ante el hahemesfario PERSONA_17.Hoailla, euyo eerfifieaDo ha aido presentiado el
+doee dlel miemo, eomo afaree en el Diario, Aono
+deeho, foho doeienbos euarenta y einco. te pubhearon
+ediAos en el oliro ta Dteviaba. eebando eonforme
+afa rineeriperion con el Aitlo presenfaLo, la firmo
+hoy dou de agoho de mil moveeienbor onee. Dere
+ehos un aot.
+.
+-2
+Hobecah eofa easa Miemero eincrenfa y dor a' le
+pegurida de uno dodcientos hreinta yeuato soles bona-
+Loo al inferes del uno por eriibe meneual de don
+PERSONA_38 y esporaelaria PERSONA_44, por el Aermi
+m de srer anoo, begun conesa ole la eseribra pibll.
+ea del oli de hoy oborgada por ante el Notario don
+PERSONA_06, auno Lerhifreabo ha sidlo prepenba
+l die de hoy, como apareee en el Diario, borno nove
+no, foho elenk veintioeho, rimere guinienbos noi
+wenfa y eineo.Safande conforsne eefa ineeripeion eon
+el fiulo presenfabo, la firmo en cleer y seis de agoabo.
+de mil moveciento diry deisDerecho tn sol.
+
+3
+on PERSONA_42 i esposa M PERSONA_37,
+dam m altieresis las bin'dao m'nm eroo ein-
+cuentidos A f cineuentidos B cincluoive mna eoei
+mita pentmeeimte a eeta caea, a dona bo dan
+PERSONA_30, por la eamtidad de seiseientos soles
+010068002 PERSONA_19 PERSONA_37 hi","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_010,datos/raw/documentos/doc_010.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","3050130270
+leiento treint cinco-
+y por il te'mino de cinco anoo fozoeo,
+debiemdo eompemarse el inleris 'del dinero
+a razon del nmo tpor cinto mnemonal eon loo
+alguileres d la' biendao; oeqn eoweta
+de la eeerilnra pibliea del dia do hof,o-
+ftngada por ante el sotario don Y. &rsilio
+ imiz; efo certifieado ha sido peeenta
+do el dia de hof, ceomo apaece eu el' Iiario
+tomo catorce,folio cientto dieeiocho,mime
+③
+ho peiceiento uelintimmeve. Eetando.coufor-
+
+me eata nnseriferon eon el titilo peoelita
+dola firmno er aiete de Eero de mil no-
+veeieutog meinti cuatro. Seuehos: mn sol ae
+m reeibo mimero tres mil cuatocuentos en
+fementisiete.
+I. tio. balderoif
+4.
+ueaa ametenido eoté mtanl smer de Pncivera ueancia del bercado dioci. deiar.
+pe de novienbre de mil movecieclos. reisioclroa ordene-
+bured,2ede dieiembre 961
+Marwl
+blo se aoe gregenivaenle el enbarao drabado el olieci
+olo leelutrk deliamoao ei ta caa minrero treriti-
+0100681004
+oho,anles sicventidos ole la calle dveda de esla eindad
+eou sxcelpeioi de as diendos mirneros cuarenta feuaren
+idos, rola cantidod de nil eoles, en el picio oroliivarnn
+feeguidd rdeia tiaraiefa Botos eotlo niguel Quael
+Tadaon eepua duin matind Jaldit,nobre eobroee eoles, te
+um eoistade dos mandaiebis exreolidos sorel uet ooe
+r bastiel,u teola veitinmeoe de abtil ciltido ke han
+3
+rereulado hoy  hoos cuano.mi. ouco agarece eu el da
+btoorei tieis tolio dsrietos oeiiile,cinero t
+ueienbas oenibed, agreaandore el lnlicaso al le-
+PERSONA_48 ohmtieis,baoel dininero doee. Sredros:reeeao
+es segin arbielos to0 de,dtde6ytot plei oaneelley
+ryeeibo  do t. tco,ico de nae ole nit
+moveciellis cuarentidos.
+Allerdttlas
+5.
+0010081005
+Poraut de olieciseis olel actiual,el Sucez.del bercaolo PERSONA_09,y acieario PERSONA_59,hia orolece aolo
+ne anote prevettivaneute el embargo nracticaoto ee pdier
+be idem eu das diedas nimeros euareute yenorenti
+los,wma huinaperia ysee eccina emutigua, erteveeien
+herà da eara minero dreeinti ocls,anter ccmeitidos cle da
+line,n d eei n ida o aia al","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_011,datos/raw/documentos/doc_011.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","3
+010068/005
+③
+0100681007
+30535等0271
+brinto Aemta y seis
+io ocrio coulia PERSONA_43 y espod; eguineceta
+losnmandacecienfos expedtiolos el otieeioelio olel gre
+feursay erereclaolos hof'ai hoas diesymeoap.n eo
+moaparere e PERSONA_22,oo eitieeis,oloties-
+eiecbs seseulibees, ncinncero mcil trerciedefos aiee
+fuedacds el dnglicaeloeceel tegaso oeleuliseis, bafo
+lamiero eeareccticvo. Dereieior:irece noles cci
+cwentaegni los articcelos tgo 1e,1g, 16y2otolel .
+aeeel,tef G 665gecibo O10026.ueeo 
+io veeititres le nlcil nooecieukos ecareefilsa.
+Cllee Cklas
+6
+Pel dctir PERSONA_47,ha PERSONA_48 a or dceio y profieta
+tieo del cediss demil eoles cobrado ee el pnicro seguidfar dloia
+pmariaforea osas cochia PERSONA_56 algel atga yeeeone doua har
+fnaaldes, anotado ereventvanete eu el asielitciincers ca
+ro de eda aada, e gidid de ta diaveserereia arce le ha heco
+fa acreedora, pr escrit de secinbiccice olè agostr olè uel noretiee
+fo uuareetidn agrobado perel oeisr fue leta cacrsa dodor dol
+fbasillo, r aut de seitisis de setieubre del miso ao, bao
+pa uierverero del baeeiba fose G.barreino; segri coete
+do tos madaniet gerados or el fnet de Creciera Lectaea
+edoercado otos m PERSONA_63 Linares . coc ferlea oeinkedoa olel
+peral, gue tar side reseutados loy a hsas craboy nce-
+ra s.m euno aareee m el Siario, tino oesecktes,stio se.
+feniana ninero ginieos cieeehseis; ede
+l dulieado euel legago ciend sesertesers, tapo el cicinero
+euielteutinco. Derechos. sebectmu soles cleeerte org
+ano.cel,le.240recibo 86333.bete0,eitolode
+ieieubre de miul movebtesi sesestiemo
+
+4.
+Sonr'slernan B. tabar ma PERSONA_48 i ser dueio y fropietario odel
+cnedit de ml sdles eentads,en lodar sus pares tates el eaqibal,cicde-
+neses deseugado ycetas del yuieis, anodado mel asienk ancte-
+ri,en meri ate eadauesereci agretehaheco core acreedo
+areaicio edortir nelbasasrarcada ucreedona ninniliva
+del credi de aue se taa dora maria fosesa Rosas xatisiea esa biaus
+reca neenà or d meeiaedo doos PERSONA_47;
+ eserio de reisidor de setiebre de mif mooeccercfs ceearer
+feres,aoba do rel seuw geee de Criera Suetacecia olel Berca
+e dotiso, r roeldo de einticico ate setiebte celus
+mo ai,bap la asdiacin del reribano arreino; wegrie oorste
+de dos mandainents et yedidos tor et fuee PERSONA_61 PERSONA_12
+e dberado dor Sn.PERSONA_63 ineresB. con seda veilidos de di
+hirdih","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_012,datos/raw/documentos/doc_012.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","3056160273
+leiento teint reis -s
+aioymedia pm. com aarece ecel Diario,omo cescitbe, p
+ipesetiemate, mimero quiieetos cicuecefiseisen delicado
+onne e el dea ceeet,bap elncero ceireecki.sete
+os.eti eles inee aeguin earicel, ey neo ysecibo
+i33t edienbeeidioi de ml geies eecke.
+zcehed
+8.
+0100681008
+a PERSONA_57 tabar baraxa,casado cadeia mratix nia sotimay
+gererano, praclicaute de derechoyoecino ole esta cudad, da PERSONA_48 ai er
+feceio deesba easa, con exceprioir de dos iendar minceron erarecctiy erea
+retiole, or heterte adicieado pagode dleeida,er da oereibr se
+geida yordoia maria foese Coeao, cadea don nigel .Jagaayer-
+fosa, or la sma de dos mil seircientos berfiecatoles seseide eee
+favoequivalente a lar des Lerceras yaxtes del recio ge airvidt
+base at anit reaepor mo haberee peteenlado poedores; eegun coes
+odeea escitira qublica aorgada od pet dela caea dod.ge
+mars deagon,eexebeldia del deferlsorle lereuea delguefue tni
+fuel  Sandfas efectado, con secla dieciseis de sebrero de mil neo.
+ecieuts cnarentseis, acleel Dotarco Riblieo aaleo Fereau.
+les Baca, con cerkisieados ha eido resetados hoahsras
+oymedia pm.eomo aranece enel siano,tonno eeseutrea, toeio
+pesbdtieaio, minmeao niechs cimeerliooto aaregandose el
+dslieadoen el dea enatvceus veletinnceve, babelieneeeo
+fesenme.otetoesekie se aeel ey
+.
+2z
+9
+010068/009
+oliasLeini Batlo esoea doina teanitla nres lalacipeva
+kasadsecims le esidad,ute yoeada  eueasaeana
+oa eer dueis yropietares de ea casainnenobeitioelo eorerceg
+eion de las dotieudas;  mieritde naberlo noradc de don PERSONA_57
+③
+B Sananaraaepsadoia benerali mea oraor ers
+foinos de e ida.nacieailedeeedoceda  cs
+Baveelada elsaleo de ei leeio dediecioomi PERSONA_58 yende en est sorna biesmilaoter ne cali
+tareiauecte, porel aiierit fadde aras,iemilales al conta do yel neto de oho mf cotes seabo
+Srio. buco,s de ecero demarael as demn wioioutes cne nteres olel uco orceeri-
+Meul
+erat, sein cosa de aesriir ibtica deceode ke
+1962
+predewilmecent cnareineoe,dorde or aede elholario i
+doaueradaotaheetiel firs ude PERSONA_24, po erlisicadon han aido geseedads
+satdo de ecio,poret aieons doemes.m rece nelioxiono eesetites
+s. e, de ne io aeb,unero oinielmereis epdesicalo ge
+ evegap aoiews mn,ao el minnero eidicabo.e
+glad
+5o0e1969.
+e ae
+3200.dueonedeeeno de nil oeteent esenidn.
+ie
+Pasa al Lomno 126.folio 394","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_013,datos/raw/documentos/doc_013.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","4031180297
+Jiene del lonno S1, bolio136.L X Vll1
+10.
+010068/010
+e milmdecieees soderbidlos
+PERSONA_34
+Beisiradur
+小
+01068/01
+PERSONA_34
+B
+Registradur
+42.
+010068/012
+ro,enrstidifn lioteca enesta Sasadease:
+Caa Ni 4a0
+Calle Avemda
+397
+Basaninnexo cnceufidos de la cudle de toenida oleestanidud.
+on tonarabar Bararas yeeposa doua mrferabiit nfia Lotirra-
+for,eor datos personuales dmeya consdan eu el Cegceto, comcelar
+arrialerle er ta euena de catio nif eotes,el ealo de wecio oleesta
+kasa,cazerida eu el aeielf arterir dle esta garticla, a sador dle los es
+oros don PERSONA_22 PERSONA_35 ydoira Sleruile trrerer talarios, eu
+hlid de lalerrecibido de'st los espresalos eeralio nn aoles a
+evevita de la denda de oclo mril sules qe aalia a olebexles ole veeta de
+pslerirarreble; eegui coaba cle la esctiteira qribeiea de sees ole ee-
+leenbxe de nnil hooecies enieueba,olorgaolaon arbe el lroti
+iobiblieo amadeo PERSONA_24, cuyos certt'icado hsr ei
+do reseritades hoy di lroas tres p. m. eouo aarece edeel Siaxo, ts
+mo oeseetitres, oliaetentidos,miinero eeireteects drmifireeve;eu
+go duglieado peberega al legaso encabroerennd cooerta, Bapo el cu
+Ierobeserticcieb. GereceS. sefinticerabo soles olete seg d-
+paucl,ley e0 yeiso d32 8.ti, qicee eer
+Da PERSONA_54 y eeposa doua tuperaiie Mefaso.
+omasor eon daos tersonraleeleya apaxecieel mel legislio,
+eoicear lotalmeidte or la amnd ode euadro nnil sdles, el Saldo de
+frecio de està eara, tinsirida c el asieed ciinveo crceoe de esti
+Santida, atavor de do PERSONA_22 teiva Baeer y eeposadoia slerece-
+luida thnrdres alacio, nniris de laerteebido deess eoses
+presados cuudio mt poles one es e seirligto del preeio ole recta
+de eala easa, pegrin eonsfte ele la escritrafileca dedier de
+elibae de mil hoveeiertis cniinerbieno, oltrgaole or ucteel
+holarro Biolien amsder Serrrardes Baca, cefos paeles hau
+eido reseubados hoy a tisas muay cuateificuicogn. cono a-
+parece  el iurio,brmo aesenedibies, solis seterrteciabio, ba ei
+dninmero seiecietos aieventioeto; chugo dulieado gueoa eu
+el legafo eualronietos ooenfa,bapoel nliner oelentice.i.
+closSdeciecao oles oeuta seri aaneel,ley Odeio y
+ecitoo33so.uxo,ecers dieciocloe mifnoecieis esedidos
+on PERSONA_22 Leiva Ballon yeeosa oloina Serrrila llrrretes
+Falacios, car dafos fersoirales que ya atatecxee dlel Peges
+da case mielceero clinceeetidus, oleseries recidioclo mrato
+ria deeda partiolama acialidadsiaadaer eiabiocieets einle de ea
+cacte ageciida de esta cidad,eegun coeta odl cexlifieado exfe-
+ido wrel peior aecaede del bddceyo froscineial ed Bereado
+don PERSONA_62 touraeeicl,cor eota caoxee de oticienrnbre elti.
+mo,ae ymrtameude queel erclilo de don PERSONA_22 Leiva Baelon, yi-
+diedstecrigcion de ta meciorado neoa nieivexacior
+ean sido eerebiados hoya hnas dos s mn couno aarece eel di-","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_014,datos/raw/documentos/doc_014.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","398
+010068/013
+010068/019
+4031149398
+Kio,omo aseuttes,minero ldoseies caeetidos, folio cies beiie
+cpo elisicadoaeaarena alleaasp cualiocieus moveifseis, bafoel uind
+aomeve. ereeos.Berta des ei daeel,lef Weoytecibore
+p9494. bueo, ico de uisde uil moeleeros eseitidbe.
+
+m
+13.
+Don PERSONA_22 teiva Baloir y esposa dona PERSONA_28 tlecceres Palacios eonr
+daos cereocales gue ya dpuleceredel Aegistio lifoteca esda casa nnei-
+mero cualnoriero serinsea sass ole la Baaole Defoifos  Boresiguacioep
+efaxlamerk deheraudacior Ofieina Buxco, eertiladorelfefe
+deSoma donBuilio bixdova fandb,cererano, oiudd,eeipleadotittidd
+verino de esta cirdad,torla cera de ciceeeeceta il aoles,taracauci
+Rar las xeapnraabilidades eu ae pdiexa ciicevir don Waslerngtorr
+meres baladios,en d enpleo gield deleetr ee oiclea inshiteiedoin
+como cobnados de lxediottsalros; eegri cmreta dela esexilera tibli
+ka detrere de yio ienno,otoneaodr acete el holaro Sibtido O
+radeoferolndes baca,eueoseertidieados tha eido aredeeedialo
+ho a nonas dies p.m: eomo aranete nedl Siaxeo,buo seseefiies, to
+hio enteiioeo,minexmildossects enaxeticcoLs;aeed
+oel dsicdo ee el leos adociecess montiseis,baso el niehcre
+pe.denes.eeieeeta eoes en Dracrcel,tey neto peei
+ot99.uto,eineo de io de ipmoveeets eesedsiolos.d
+Hn
+
+
+14
+besar augnoto Ouiex Dl PERSONA_48 Nna, ain do, agri b
+o, netiho d rot oindad, ha Saado a r Sliso d'd
+tendas sgaradas cn lo Oumno uaron a cuar n t
+euaTro ohto  ha Oun uarcmts uun tie ho
+i euarons onts into, Nertn cionto a la caa 
+ri e l bart.da, e' Onio de a antgue le
+oongan desposo fnnan faar Caraaor tofoaa,
+Bdfratrx Oy ia domayor d Fasar cn oa tupe
+seads gue ya Eans tan on  Bgho n d oro
+d Oentidnw ad soho; sgh grs  h A srit
+ra bbhi de fla gi H Aulo d Od owwin.
+ts ssont sio, oogad onk l aiotaio bulln Mntn
+avmdaro,  guha, sido ontd  do uaocd
+nars? criat a PERSONA_45 PERSONA_16. om. rno efarce
+d Diao, fomo sent ato, fobo sino tun tinc
+umuo ond ginient hiA, gurdondo  ognak
+on d kgoo ribbeto layo d ouno th inhl. de
+psient ehtht sohs gun ar asut, ly
+12h0inilo
+Gw cluch mo
+e. Omd wients stmtsiek.
+e","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_015,datos/raw/documentos/doc_015.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","010068/015
+010063/016
+010068/017
+
+399
+4031160399
+
+15
+PERSONA_22 beiva Balln  Himmila lmns PERSONA_50 de hiciva, bus
+oo, caoo du vnin  de s l cidad, han fsaoa do a sn dse-
+Cio de las t on das insuifas n d aoino antri h o ta
+Sotda, on aniilode l int gu h otga augmlo O
+i d Padodera, cen Dato bisnhs Su ynmtan
+n i P egis tro, r  loni de snl d Ahn: rgin um
+e de P seritins bu tlr de feda true  nninSh le
+mi onnion n, togad antd oe bublieo
+ l um dano d gu l sido fsemtdol da a to
+ C enornint  hoa uve ri gunu a. on.nmo
+aa od xiano, tsso tnhuo, Solo esn eint
+eino, Cumno Ond gunints hintuno,geSand d
+origm ab an d legao rsfet, bau l onumno Thinla-
+b. Dws.Por ien ts conS t ei soh rgm anand.
+ p1BNoinilo Oo.
+usn, des d nars de
+i mimt ntut.
+t
+/6
+Hwmila lmeres PERSONA_50 cir da d Fewa e Iye
+asa Onara  mario besa  ea, han goaad a
+sor dieia d lo aicnu n eh giu tria m
+es t cmrueble nratr dh la faida gon Ola
+heina Ballo bor cen Iscuia d .olarama eh he
+peder c oe fcla hran l de feteo a eino enfcdid
+Sor.ed fes bn ncoeansal oi tundo fuxgods e
+PERSONA_29 dl eo, a Car A diniula, a os
+e adon hyes u eperai sgan em  d ls oenuo
+adu oeandgminti  gu han ndo bntd
+ da chenicrbo d eo aorrrnlo a hna elou
+ aent  on. gnno Oparee e guo, dno clen
+hhs fdhio oeets cunhono, cmo co
+Cnd JoreerPeo cdo, gw dono d ergmal  d
+hgao mfedoo bae b mannno nure hent
+.co.Dcresd ei cal gmeim Id pol sgn
+Crarre, ly .a40 n pelo 06683: Cche-
+Crine ed enero  ond cwints.ahntho.s
+uyd
+g hs daQas
+t0128
+1￥
+Fhemela lmers Pglaun a inda ce heiva ha
+PERSONA_48 a ser deeio e las acerer c Sirebs
+del inmulle oiatna d la pur hda, fn holu
+lo ennknado Ce rano Keia Cnyea, s d
+onio d dos Cnieome osuen t onuen io
+an ci tolesi Segun gens du la esuTna pe
+d liea e feda Suete ch seteenbe uetiniso o-
+Corgado anlh d ooaro beblc fhennr lo Eae
+a' pu ha Sudo frseritodo d' ch erlo de
+enhero eorn to a Mosar de i tena to r","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_016,datos/raw/documentos/doc_016.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","400
+010068/018
+4031160400
+como enen dl ohao Tmo clan tits foto dosan-
+tr ounho, armnó o oi doumTs oune
+gu dan do e oigenal an d Segogo rsfectve bao e ou.
+aner o oet frent ss Her e: er Snd ccho
+een fen ocven a oler sgun Arancel, by le4oe re
+Do  s so 8 b. Gureooieinuve emro d md
+Ccreientis clonto ties. FS
+yth
+i  Q
+aentaasom
+8
+2
+temnila lmreres Palacios cin da de beina da par
+sado O ser, durna de lar acine i duaher C a
+cara Oma fria d eo patida, pn ha PERSONA_28 gen-
+prod de ana Crana kena nreia, ooechian to su
+edo r mguhoado n ed Hginbio Conandatin, pn 8
+pr de Oas ore ddre eesiien tos enilnta ent
+solr; segn Gem ta d la erin hra foullca Oe je
+ela hde d oer uenb u Cno, odngodo ant'd
+ao faro puhco th enmri leo Carer e fh ha PERSONA_48 n
+gem da oó e cha nn d woo oh odcemb nidtano
+O dnas hes i gneent o. on. ormo auu b
+feauo, tonro ghnths dolo eenrt cnwmlwotg
+oennro ore ah cnenP ceuwn tode gw dondo
+d engrat m e legao mfedg dayo d auneo
+tisn fo tus. lebdn:oler ced ehcom tos co
+amfa goli Regen PERSONA_03, ly 1D4o  rudo o
+② 3 6 3: se heeincnsd d eneo e oce
+GreveismPo clent br. Fs.
+yftit
+Sa nis peta Quresd
+eiTD0
+Pasa al Tomo 21/ foleo 213","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_017,datos/raw/documentos/doc_017.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","Kaso en la ealle
+unida Ouno
+010068/018
+8
+135.m2
+
+
+22d Yoye du l995.
+012410213
+C
+213
+Vime l Tomo Ja6 totio4o
+SoSre ur lirea fohl de enathounefer fanintiinco
+mefno lnadiaoosel inesl t su n ieuis
+esa Oorida R hobie fau aoa feruida Umned
+Paldn ha heo eontrin mma eaa dco eior
+be C dihdrin sinet:nnee so:hde
+ti domur'hset Bo louiai dn lhiaa d
+Xuso mrlfisle Bao, nola,lonuaer, deou' br
+'uuda sepe de inugreoi iglo oeso. Mes dor.
+mfonsy aieon inrr. mrlo Coduuua
+ atose:fecun de e jas som higmrra b madea;
+Sid zina eaoaehda arteadoi nntay vn
+Fauab nedra anstoauoue Sarfas a
+letrias: ana dbre er'eto einupdo.nt
+Sixo metio luadhadol: valo fofal ocr'urd a eua.
+rfoottonet noi'tooauteun ml so
+Kesi agun eonh b k dudaraarra de taria a
+Siiihda ciuria hnua nunaead zstaney
+as cin rntasab'doao o3-Pb al.P. PERSONA_51.,
+omadssl leint a baolineiobuse
+ke bal ae hsl a horas hmve.einuuf d.m. eo-
+o gae md aao Fono mortiro do
+Hoenno nimuo euadoogngoidoneu:
+Simal a S lgogo eoe el nimilo Sonuinfsuin
+Fes Oe:femia liurtlinutimi
+Suaefes linuieke ole contnu Sm
+Hino. hinfokoinhrgdanetbyve
+ko143-99s.Oo vanmoe mer
+Ro ae mil. moranfo ocmtsis.-pp= f
+Routiie en le FidheN' S6ts dlRupihs du hopiedad. Lwaro","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_018,datos/raw/documentos/doc_018.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","Tomo2
+
+
+meartamemto
+
+CUZCO, 7 DE ENERO DE LS57.
+N.I.
+Parte oficial.
+sino su fuga en direcoion a Omas
+te y que los lenles Torateos los
+habian perseguido hasta tres legune
+de distancia tirotenndolos, con lo
+Ropublica Peruana— Estado Ma
+que les ocasionaron graves yardi
+yor y Comandancia Jeneral de
+das.
+La Ta.Division del SurAlto de la
+Me cnbe pueg, la satisfaccion
+Villa-Diciembre 30 de 1856.—
+de poner en conoeiniento de US.
+qne de este nodo h yuedndo con-
+A Illmo. Sr. Gran Mariscal Je.
+pletanente restableeilo el orden em
+nerab e Jefo dsl Ejercilo del
+todo el Departamento, ai yne ten
+Sur.
+gamos qne deplornr desgracia nins
+Illmo. Sr.
+gunn y yue loa vecinos de estn
+Ciadad y de Torata, ban dndo unn
+A consecuencia de la ocupa
+nueva prueba de patriotisno y -
+oion que Jos fucciosos hicieron, a
+delidad por el Gobieriro y lus ins
+viva fuerza, de la Ciudnd de Mo-
+titucioues que proclatnaron en uniom
+qnehua el L9 del corriente, ha-
+de los demas pueblos el ano 54-
+bia resuelto como dire a Us. en
+Dios gunrde a Us.-L. S.G.
+mi comunicacion del 2t, rotirarme
+M.Jeneral en Jefe-Nicolas Freire.
+ Tacna, hasta que US. tuviase a
+bien dictar laj providenciag conves
+0
+nientes. Mas sabiendo las muchas
+El Comandante General de da Di
+tropelias que cometinn con los ve-
+Dision, a ous Soldados.
+cinos y el reclutamiento que dias
+riamente hacian, no pude ser, in-
+Soldados. Cuando supisteis que
+diferente y me decidi a batirlos.
+nuestros cempatriotras de Moque-
+AI emprender mi narcha de
+Camiara a las cuatro de la tarde
+hua estaban amenagados por fuer-
+zag desprendidas de Areguipa para
+del 27, Hlegō un espreso que diri-
+hacerlos adherirse a sus prineipios de
+jia el Subprefecto de Moquehua
+desorden y anarquia. marchasteis
+avisandeme que lus fuerzas acau
+entusiastns en socorro de este puer
+dilladas por el Coronel Ugarte-
+bl leal,sostenedor de los principios
+ehe, sabiendo oi aproxinaciou, ha-
+constitucionales y del Gobierno; pe-
+bian evacuado la Ciudad,de miedoy
+ro cobardes los enemigos huyeron
+Tetirandose a Torota. Crei tuvie-
+vergonzosainente al saber vuestrn
+Tan inteneion de posesionarse en I-
+labaya, y continue coutando siem-
+aproximncion y corren a encerrarse
+en sus trinoheras: legara el dia de
+pre con vencerlos en cualqurer par-
+te que los encontrara; pero en la
+que los bmsqueis alli.
+naana del 28 que ocupe la ha
+La lealtad, conpanera insepa-
+rable de vuestro valor, os haee dig~
+cienda del Conde, supe que los ser
+diosos continuaban, no su retirada
+nos de la admiracion de los pueblos,
+continuad sicmpre observando esa","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_019,datos/raw/documentos/doc_019.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","REGISTROOFICIAL
+面纸
+Departamento.
+Naarcro cstraordinario
+CIZCO. 2O DR NARZO DE T857. N.T6.
+
+
+urte oficial.
+Ms coregirlos y extirpurlos rati
+catmeute Con thl mira ne man
+da gue dirin' a US esta coim
+MISISTEIEO
+miracion! a fiu de gue cirenle a
+Ihs aucoriuades de su depemden
+DE GOBIERNOI Y OURAS PUBLICAB:
+cia las siguientes instruccibnes a
+
+Ias quc deberan sugetarse.
+Hepibliea Perunnn-Mnisterio
+""@uiihran' eserupulosninente
+de Ciobierno. Culto y Obrno
+de gunrlhr y hincer respetur Ihs
+pblicus-Limt d 26de Res
+guruutihs indiviluates y civiles
+ow de I5g-Sor Piectn
+aue Ih Constitucion del Esthdo
+dck LDepartunento deb Cuzco:
+yel Derecho de Geutes franqueain'
+a los Extrangeris dotneilintos d
+CIRCULIK
+tansenntes gue se Hallen' en el
+Territrio de Ir IRepdblica:e inl
+EI Sor Ninistro de Teelarios
+rulearan con'esmeroen el Pueblo
+eo Exterieren me ha dirido'con
+Dis sentimieutos Hhuutatithrids y
+fha 2 del aetunl Ia siguieute
+ofciog de fateruidad a' gue sin
+
+aereedbres.yu' por el dtber gue
+Hhrto frecnentes Han cido
+h lospitalidad impone; yapor
+por desgrucia lns reclinmaciones
+el grande interes que tiene la
+iplonmtinas gue Hn teuidoel Gi
+Ncion' de ntraerlog a su' seno
+Bierno por indeurniarioues de da-
+aunenthnto sa rigueza intelec-
+os y perjuiis causados a Ex
+tint y waterial por medio de la
+trungerur, rerlauacioues qhe no
+iauigraciou
+sulo han dado·tugur a desagrus
+Prestaran a Ios Estrange
+dables comtestaricnes.sino'gue a
+ros medivs de segurittt' pro
+truru ue de snlvar ileves losprin
+teociory tinnumteias:coitpatibless
+ripio de jugtiirurior que prote
+cor lao leges del ais part gue
+sn Ia·Repoblira:liauprovocado
+egeraan Hibrenente su' ivdustria
+e'atorgamiento de conresiones er
+6 Comercio y pare' facititarrles'su
+trusito.
+estrem onerosas at Brario g y n
+""Coando sen menester ocns
+pxesnr de gne es de esperhr gue
+par' pariel servicio publivo, per-
+coo el progreso de In irustruciou
+ol'mejoramentode lasinstitucios
+sonas  propiedades de Extran-
+oes,y las·leyes dietadas pura
+geras, serd prerio ujuste y con
+Bhicer ereetiva la responsabitidad
+venib gne debera comntar por ess
+criro y'se reservhra para ane obre
+dte los Laincionarios uablicos. dess
+apurezra elortieu de abunos thn
+de' comprobiute.
+""Vigilaran severamente qie
+fhnentorrianiere S E el Liber
+tador Prenideute adoptar Ias'me
+ningonn antaridad ni finciona-
+didus taaseieuces para repirimit
+rio civil,militar à'politico'utas
+OHhJ","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_020,datos/raw/documentos/doc_020.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","2业
+
+
+ATAEMATMAIEO
+ae
+WTO.
+707008004
+CNUMEKO
+***
+1
+5
+an
+200
+funciones en negocio determinado.
+v no asf a los que recibeh la juris
+diccion ordinaria, en virtud del nom-
+bramiento que,conforme a las leyes.
+les confere el Supreino Gotiernos
+pues de otro modo seria preciso
+hubieraconsecuenciaen el
+qne
+cumplimiento del articulo.y ningun
+vocal de los que nuevamente ingres
+san a los Tibunales podria Formar
+Sala ni resolver causa alguna,sin
+que previamente se pusiera en no
+Dindosele, pues, unn'ios
+la Corte.I","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_021,datos/raw/documentos/doc_021.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","BEGISTRO OFICIAL
+DEI DEPARTAMENTO.
+taaimurio.
+
+2
+NUM.3
+TOM.XI.
+CUZCO, ENERO 11 DE 1859.
+W
+ytinisterio de obierno, @utto
+Callao 23 de Diciembre de 1858.
+cineo y medin de la tarde, hora en
+Dbras puvliras.
+qhe. partin el tltimo, tren pa
+Contestese--que es sensible el
+ra esn, Capital, de molo qne no hn-
+estravio gue ha sufrido la parte de
+bo tiempo parn participar al Go
+esta poblacion de que se hace refe-
+Repibia Peguana.Prefectura de a
+rencia: que procure por todos los me-
+Prpincia.Constitucionul, Callao 22
+ni parecia urgente, hacerlo, atendida
+dios prudentes y sagaces, de que pue-
+de Diciembre de 1858.
+la facilidad con que este desbrden
+den disponer las autoridades, redu-
+podia desaparecer  de un momento
+cirla al órden; en la inteligencia de
+Senor Ministro de Gobiermo, Culto
+17
+ǎ otro,. como sucedi6 en efecto,con
+que si de este modo no se lograse
+y Obras Públicas.
+la: eficaz cooperacion de todas las
+tranquilizarla, se emplearan las medi-
+autoridales de la Provincin, con. la
+das coercitivas indispensables en ta-
+Senor Ministro.
+intervencion de los ciudadanos inu-
+les casos contra los infractores de las
+yentes y: el ,biten comportamiento de
+leyes, que han sido atacadas y con-
+Ai desembarcar ayer las obras
+1
+dos oficiales y soldados del cuerpo de
+culcadas. Y en atencion à que en la
+toscas de caipinteria traidas para la
+capital de la Repiblica ha habido o-
+empresa del ferro-carril de Chorrillos,
+te aucilio gue·dió ln Comandancia
+tro motin semejante y a que en me-
+volvieron á reunirse tumultuariamen-
+Geneial le Marina. Todos los aro
+dio de los desórdenes de esta natu-
+tinados. se habian dispersado: com-
+relos que se suponen pertenecer al
+raleza ademas de la efusion de san-
+pletamente á las diez.y.media de
+einio de carpinteros de esta Ciu
+gre, se suelen atacar derechos y pro-
+la noche, hora en gue S. E. el Pre-
+piedades particulares que atraen res-
+dad iue; dias,antes, tuvieron la pre-
+sidente de la Repibliea, con la ac-
+tensio de imnedirdicho desembar-
+ponsabilidad, prevéngase al oficiante
+tividad gue le es natural, y con la
+y al Prefecto de Lima que manden
+que,y se presentaron por escrito pi
+oportunidad .con yue .atiende á los
+diendo se. hiciera regresar,al buque,
+instruir una sumaria averiguacion con
+peligros.de la Fatria, hahin llegado
+el objeto de esclarecer los hechios y
+y atn ocurieron. personalnente ante
+con fuerzas do Lima á Bellavista.
+las personas a quienes dreeta o indi-
+S. E. el Presidente, de la Republica
+Puedo asegurar a US. Senor
+rectamente pieda afectar dicha res-
+pr tendiendo se:impidiera la introduca
+Ministro,. que este incidente lamen-
+ponsabihdad Pongase la respectiva
+cion. de kas maderas labradas para la
+table, gue cede en deacrédito de es-
+circular  lds Prefectos sobre estos
+estacion: del ferro-carril.
+ta poblacion, que por sus instintos
+…
+desagradables acontecimientos y publi-
+Mal auonsejados ó seducidos por
+de moralidad y órden y por los im-
+queseRubrica de S. E.Morales.
+sujestiones de.unos, cuantosaventu-
+portantes servicios que ha prstado
+reros y, fomentadores de desórdenes
+es mny digna de las consideraciones
+para medrar en ello se ha extravia
+
+del Supremo Gobierno, no ha ido
+do, Senor Ministro, el, dia de ayer,
+obra de los hijos del pais, de los
+MINISTERIO DE GOBIERNO.
+esa parte pequena del pueblo qie re-
+que son verlnderos chalacos-tan cier-
+presenta.dicho gremio, la gte capi
+to es esto, gue los playeros y bote-
+Callao a 23 de Diciembre de 1858.
+taneada por unos cuantos extranje-
+ros en. general, ;con mty Taras eg
+ros se presentó àmas de las cua
+cepeiones, no se han mezclado ni to-
+Sr. Pref. del Departamento de Lima
+mado parte con los motinistas, cuye
+tro de la tarde à pedir á esta Pre-
+La parte de esta poblacion que
+fectura que mandara suspender el des-
+mayor nurnero es de estrangeros eo
+embarqiie de das putertas y ventanas
+ino he dicho; mty especialmente log
+personas mal intencionadas habian ex-
+hasta qute el Congreso resolviera lo
+cabecillas, de los que se hallan pre-
+traviado ahuisando de su candor para
+que debia hacerse et la matevia. No
+sos algunos, para ser sometidos a jui-
+hacerla servir de instrumento a miras
+bastaron los priidentes consejos, ni
+cio, como lo serán tambien poste-
+proditorias, ha conocido su error y
+las persuasiones mas precisas y con
+riormente tolos los que, de los es-
+abjurado de él, volviendo a sus ho-
+vincentes para disuadirlos de su des-
+gares; sin que para ello haya sido
+clarecimientos correspondientes resul-
+carrio; y cuando la insistencia inso-
+ten complicados, ya por el hecho de
+necesario mas qit exitar su conocido
+la subversion relacionada, como por
+lente de los cabecillas tocó á punto
+patriotismo y inanifestarle las desgra-
+el de la rotura del alambre telegr-
+cias y el abismo en que se trataba
+de faltar á los respetos de la auto-
+fico y la destruccion de algunos rie
+ridad, con menosprecio de los man-
+de precipitar al pais.
+les del camino de hierro.
+S. E. el Presidente ha sabido
+datos supremes y del cumplimiento
+Tengo la satisfaccion de anin-
+de las leyes; me ví precisado , or
+con alto desagrado que las mismas
+1
+ciar á Us. que á pesar de haber
+personas cue consiguieron aqui por
+denar la prision de dos individuos
+dado mérito suficiente la injustifica-
+pocos momentos alucinar y estraviar
+que aparecian como los mas fomen
+ble agresion de los antotinados para
+tadores de la azonada. Esto dio mé-
+a algunos incautos han logrado tam-
+hacer uso de la fuerza, he hecho
+rito á jeneralizarla y á que quitaran
+bien en esa capital su reprobado ob-
+lo posible por evitar tn lance des-
+à uno de los presos y se dirijieron
+jeto, reuniendo tumultuariamente a al
+agradable, motivo por el cual, no
+gunos sencillos y laboriosos artesanos
+en masa al Muelle, ádespedazar u
+han sucedido desgracias lame ntables;
+Aunque Us. de nada de esto ha da-
+na parte del cargamento desembarca-
+sin embargo, como al eontener la
+do parte a este Ninisterio, me hallo
+do, intentando tomar las lanchas car-
+rotnta de la arneria f ancesa fué
+en el deber de prevenirle, por espe-
+gadas, y aun dirijirse al buque con
+herido un hombre del pueblo y un
+cial encargo de S. E., que haga enten-
+ánimo de incendiarlo.
+agente de policia, y como es regu-
+Inmediatameute me constituí en
+der a los amotinados de esa capital
+lar que en algunos enenentros con
+—que si hasta las doce del dia de
+el lugar del tumulto para amonestar
+las patrullas pidieran haber ocurri-
+mafiana no han vuelto a sus ordina-
+á los amotinados y llamarlos al òr-
+do acontecimientos iguales, he pedido
+rias ocupaciones, sino que continúan
+den y aunque cegados en la insubor-
+todos los datos á este respecto, los
+fomentando el desórden, cometiendo
+dinacion y en el desórde, pude al
+que comunicaré á US. cireunstancia-
+desacatos de toda especie con menos-
+fin dispersarlos, recorriendo de uno
+damente en otra oportunidad.
+precio de las leyes, de las institucio-
+en uno los grupos, y crei haberlos
+Desde Ias 12 de la noche en
+Hes y de las autoridades, se emplea-
+convencido y tianquilizado. En esta
+que S. E. con las fuerzas traidas de
+rán toda clase de medidas, sin dis-
+persuacion regrese a la Casa de Go-
+Lima pasó á esta Ciudad, hasta las
+tincion, para restabfecerel érden y
+bierno á dar otras disposiones, cuan-
+9 de la manana en qute dirijo á Us.
+la tranquilidad de ese vecindario, sin
+do reapareció la sub'evacion con mas
+la presente, no ha sucedido nove-
+que las consecuencias desastrosas que
+fuerza, y entónces la oleada muy nu-
+dad nlguna. Todo lo que tengo el
+de tales medidas se ortginen, puedan
+nerosa atentaba contra la Prefectura
+honor de comuuiear á US. para sn
+atribuirse mas queá los sostencdo-
+y Policia, comenzando á violentar las
+inteligencia y conocimiento del Go-
+res del motin.
+tiendas donde creian encontrar armas
+bierno.
+Digolo á Us. para su exacto
+que consiguieron extrayendo las que
+Dios guarde a US.-S. M.
+cumplimiento.
+habia en una armeria francesa.
+José D.nino.
+Dios guarde a US.-Manuel Morales.
+Cuando esto sucedia, eran las
+","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_022,datos/raw/documentos/doc_022.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","BEGISTRO OFICIAL
+EBeL eeaet.
+NUM.T.
+CUzCO O DN ENERO DE 18OO.
+TOMO x1.?
+le hizo al deneral en Jete dal mer
+Yadiones diplomationg con al Peri y
+clto Eenatorano y repiieron en Ias
+PERU Y ECUADOR.
+aalebrar el indicado arreglo.
+negoclapes Jos comisionados del Gua
+ARTICULO 4.0
+yas y Azuni.
+Yn prueba de la buena è con
+ARTICULO 12.
+Deseosos S. E.el Gran Mnrisenl
+El Ganeral en Jete del Bjerete
+qu proeeden ambas peytes contraa
+Geneval en Jefe del Eioreito y Arma
+tantes, se comprometeh a cactigar e
+y Armada del Pert, emena Ia bue
+dn del Por y el Gobierno del Gun
+mérgiea y severamente, con areglo
+na le de su Gohierno y la snya pro
+yas y Azuni, de Yestablecer en lo po
+pia, para no fatervenir en las cues
+ǎ lns leyes a loa qhè aparezenn pro
+sible Ia confanza y amistad que npa
+tionea domestiens dal Pehador sino
+moviendo la guerra pon asonnds, tiz
+recen interrimpidas entre Ihg Repi
+maltog 8 de cualqniera otra anera.
+para interponen en easo necesario, su
+blieas del Perá y del Echador, con
+ARTICULO 5.0
+mediucion amoitosa,  fn de evitar
+motivo de las chestionen promovidas
+que ningino de los partidos politi
+por la pasadn administrncion de es
+eido mn Gobierno general en el Ecaa
+cos haga tso de sis nrmas contra otro.
+tu Repiblico, convinieron en hombrar
+dor, al qhe apoyara con tolas sus
+ARTICULO 13.
+comisionados que los reprèsentasen;
+fuerzas el General en Jefe del Eier-
+Bl presente Convenio se Patinea-
+con el ehcargo especial de qiè adop-
+cito Pernano se procederh por estey
+YA por Ias altas partes contratantes, y
+tasen medidas convenientes parn ha-
+aduel, a celebrar los preliminarea de
+lns ratinehelones Be canjearan por los
+cer cesar la aetunl situncion de alar
+un trntado de paz, qne restablezca
+Yespeetivog comisionados en la ciu
+ma en yue e hallan lns fer2as pe
+sobre jhstas y sólidas Bases, la nmis
+dad de Guayaquil, dentro del térmi
+rhavhs y Jas de la plaza de Guiaya-
+tnd y concordia a dhe están lam-
+no de tres dins, contados desde la
+quil; á fin de facilitar por este me-
+das para el logro da an comun ven
+fecha èn qne se hrme,
+dio, los prelininares de un arreglo de
+tura, respetabiidad y progreso, las
+fnitivo entre el Peri y el Ecuador.
+ARTICULO TRANSITONIO.
+Repablicas del Pert y del Eeuador.
+Con este importante objeto S. E.
+Miéntras se expiden por ambas
+ARTICULO 6.0
+e General en Jefe del Ejercito y Ar-
+partes contratantes nuevas instruecio-
+Ias chestiones pendientea ents
+mnda del Perú, hombró A los senores,
+nes A sts reapeetivos eomisionados pa
+el Perá y el Ecuador se ameglarén
+general de brigada, Jefe del Estado
+ra resolver la cnestion de neantoni
+de mn modo satisfactovio por dl Go.
+Mayor General, D. Juan Antonio Pe-
+mientos, o se entienden al efoete di
+bierno del Ganyas y Azuni, observanz
+zet, y al Ministro de Estado eh el
+rectamente Ios Generales en Jefe de
+do los principios de justieia en las
+despacho de Gobierno, Culto y Obris
+anbos Bjereitos la Pherzis perun
+demnndas del Pèri lhogs qhe eate
+publicas, encargado de la Secretarin
+naa sé m ntèndrán dn el cnnton dle
+Gobierno legue A organiz rse de tal
+de S. E. el General ch Jefe, Dr. D.
+Mapasinghe conservAndose A distan
+modo que repreaente. la voidntad ge-
+Mannel Morales; y S. E.el Gobierno
+neral de In Nacion. Mas, para que
+del Guayas y Azuai, á Tos senores
+don de Ia chndad de Guayunuil.
+las cuestiones qne en lo sneeaivo o-
+generales D José Maria Villanil y
+En f de lo cual, los comisiona
+curriesen entre el Perú y el Eenador,
+D. Guillerno Bodero.
+do de ninbas phrtes contratantes fr-
+no den jamàs lignr A turbar la es-
+Qnienea asocindos de sus respec-
+maron por duplicado el presonte Con-
+trecha union y buenn armionia con
+tivos Seeretarioay siéndolo de In Oos
+venio. refrendado por sna respeetl
+gue deben caltivar sus relnciones laa
+nision Peruann, el Dr. D. Mannel Ni-
+dog Repiblicas, se neorlaran medi
+Vos Seeretarios en In ciudnd de Gun
+colas Corpancho y de In Ectato inna el
+yagnil A los tres dins del mes de
+dna eficaces al celebrar dl tratado de-
+Dr. D. Nicolas Gomez procedieron A
+Didienbre de mil ochocientos cin
+fnitivo de pnz y amistad.
+Inanifestar y. canjeat sus credenciales,
+ARTICULO 7.6
+cuenta y hneve.
+y hallándolas en buona y debila for
+La nutoridad ndminitrativa de
+(Firmado)
+(Firmado)
+ma etipularon y convinieron an los
+JUAN ANTONIO PAZET.
+Guayngnil se Compyomete A adoptar
+J. VILLAMIL
+Biguientes nptieulos
+las medidaa mas efchces, para la res
+(Firmado)
+(Birmndo)
+ARTiCULo 1.am
+presion de las demasiaa de los que
+GULLLERMO BODE-
+MANUEL MONAIEB.
+No habiendo sido el animo del
+tiendan A fomentar la aharquin; y o
+Ro,
+Gobierno Periano al enyiar A es
+frece evitat, bnjo su direeta respon-
+t Seeretrio de ll Secretario de
+ta ria una parte de su Ejercito y a
+sabilidnd, cualquieta coliaion qde cdn
+la CoHsion Pe-
+Ia Oomision Ecun-
+eindra traer la. guerra  los pueblos
+prometh A ambos Hjercitos.
+torlann.
+runli:
+dl Ecuador; hi desenndo, tampuco,
+ARTiCULO 8.
+(Flrmado)
+(Firmndo)
+el Gobierno de Guayaqnil hacerla por
+Si el General en Jefe del Rjerdito
+NiCOLAS GOMEZ.
+MANUEL, NICOLAS
+su parte á las referidas fucrzag; ln
+y Armada del Parh tiviese difcultad
+CORPANCHO,
+convenilo en suspender tolo prepas
+para coniseguir los mntoriales decesn
+0
+rativo belico y no cometer acto al
+RAMON CASTILLA,
+rios para In Construecion de alojn
+guno hostil.
+miajtos de dampndn, el Gobiurho del
+ARTiCULO 2.8
+ENERAL EN JEFE DEL LJERCITO
+Gdayas y Azuni dxpedii Ins ordes
+tt Golierno del Gunyas y Aziat
+Y ARMADA DIKL PERU.
+nes respeetivas A las nutoridades sd
+Por cunnto:
+y ei General en Jefe del Bjercito y Ara
+Fl precedente Convenio, ha si-
+balternas de s dependeneid pard que
+inada del Perú, emplearan cunntos
+do ajustado en conformidnd con lns
+se le proporcioten por su justo va
+nedios esten A su nlcance, para lou
+inatrueeiones espedidas A los comi-
+lop, dsi como cunlesquiera otros ntxi
+grar el importante objeto de que en
+sionndos del Peri, y su aprobncion
+liog gne neeesitare para el sugtehto y
+el Ecuador se erija din sold Gobiers
+contribuira A manifestnr una vez mus
+conhodidnd del Ejardito Pefdano.
+no que represchte, deutro y fiera
+y de un modo csplendido, que, el
+ARTiCULOD.O
+del territorio, los dorechos de usta
+Los Generales en Jufe de ambos
+jerelto peruano ne omite medio al-
+Repiblica.
+guno honroso, que lo ponga en el
+erditos se comprometan A devolver
+""ARTICULO 3.3
+onmino de ln paz, sin reeurrir al em-
+A los trnnsfugas dug se le presenton
+Eatre estos medios se ndoptard
+pleo de las armas, he venido en a
+de las flas opuostag.
+el nombramiento de Reprgsentautes
+ARTiCULO 10.
+probarlo y rntifearlo, emponando pa-
+de los tres Distritos de Quito, Guna
+Los Sefores Gonavles, Jofes y
+ru su cumplimiento el honor aacio-
+yas y Azuai, los qug reutidos en el
+nal—Dndo en al cuartel genoral de
+Odciales de antbos Ejórcitos podran
+menor tiempo posible, A lo mas cua-
+pasit libremhente de un cnmpamento
+Mapasingue,A cuatro de Diciembre
+Tenta dins, elijiran un Gobierno Pro.
+a otro, con el previo perniso de sus
+de mi odhocientos cineuenta y nueve.
+visorio o autorizaran i cualquiern da
+[Firmndo]-RAMoN CAsTiLI,A.
+respoctivos Genernles an Jefe, otor-
+los gobiernos que actualmento existen
+gado en In formn y modo que estos
+[Birmado]-JuAN O. CAVERO.
+en el Eenador, para que arregle de-
+tengan A bien pdoptar.
+
+fnitivamente las cucstiones pendien-
+GUILLERMO FRANCO,
+ARTICULO 11.
+tes con el Perú. Si mientras Be po-
+Jefe Supremo del Depurtamento
+El Geugrnl en Jele del Ejereito
+ne en ejecucion esta medida, cual-
+Peruano podrA ocupar los estableci-
+do Guayas B. d.
+quiera de estos gobiernos logra re-
+Siendo Ia paz el sentiniento
+mientos hospitalarios de la ciudad de
+presentar los dos tercios de la Re-
+mas ardionte de mi corazon, y sien-
+Gunyaquil, on virtud de In oforta que
+pública, podra tambion, entrar en re-","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_023,datos/raw/documentos/doc_023.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","REGISTRO OFICIAL
+8
+EDe EDearlaet.
+
+TOMO X.
+CUZCO S.DE FEBRERO DE I8GI.
+NUM. 6.
+
+los individnos que deban ocuparlas.
+flinisterio De Relactones
+quesC. RAMON CASTILI,A—JOSB FA-
+Art, 10. En las capitales de los
+BIO MeLGAR.
+Gxteriores.
+EL CONGRESO
+demas departanientos, de las provin-
+cins litorales, y en otros pueblos d n-
+DE LA REPUBIICA PERUANA.
+jtinisterin De Gobierno, Politia
+de se crea neceario, se org tnizaran
+n bras bublicas.
+CONSIDERANDO
+Companias de bomberos, por las au-
+SECCION DE GENDARMERIA.
+Go1. Que el Gobierno de Bo=
+toridades politicas, haciendo al Go.
+Tivia, f las auteriores ijurias hechas
+Bamon Castilta,
+hierno las propnestas correspondien-
+al Peri, acabn de nadir la violneion
+tes.
+PRESIDENTE DE LA REPUBLICA
+del territorio nacional, reagravándo-
+Dado en la Caa del Gobierno
+lu con el saqueo del pueblo de Ze-
+Debiendo formarse en esta Ca-
+en Iint, a 30 de Diciambre de 1860.
+pita, la muerte alevosa de dos ciu-
+pital unn Compafia con el especial
+—Ramon Castilla.-Minuel Mrales.
+dadanos y la captura del Suh-Pre-
+objeto de anxiliar al vecindario en los
+RAMON CASTILLA,
+
+fecto de Chncuito y de otroa servi.
+casos de incendio y otros, para la
+dores de In Repiblicn. à quienes se
+mayor seguridad y orden de la po-
+PRESIDESTE DP LA REPUBLICA;
+ha conducido A Bolivia, en calidnd
+blacion,
+Siendo necesario hicer en las
+de prisioueros, segun consta de la es-
+BECRETO:
+fuertns de policia, las reformas qne
+Art, 1.o Se crea en esta Ca-
+posicion del Poder Ejecutivo, conte-
+exije el mejor servicio, para que pue-
+aida en la nota le 30 de Octnbre
+pital una Compatia de Celadores-
+dan llenar con exactitnd el objeto a
+último, y comprobada con los docu-
+bomberos, gne se componlrá de un
+que están destina las, yue es cuidar de
+mentos respectivos:
+Jefe, un Capitan, diez in pectores,
+la seguridal de las personas y de
+2.Que tales hechos constitu-
+veinticineo cahos y ciento cincuenta
+las propielaler, tanto en la Capital
+yen una manifesta transgresion de la
+celadores bomberos.
+y sns subarbios, cono en los cami-
+Art. 2.Esta Compatia ten-
+ley internacional; porque con ellos
+ncs y valles qne la circundan!
+se han vulnerndo los mas sagrados
+drá a sn cargo el manejo, cuidado
+DECRRTO:
+y conservacion de las bombaa, y su
+derechos del Peri:
+1.0Las fuerzas de Gen larmes
+de 3. Que, si exijida la repara-
+principal ghjeto es combatir el progre-
+de I Capital se comp ndrin de los
+so del fuego y prestar oportnros y
+cion y satisfaccion a qne el Peru tie-
+Rerimientos, uno de Infanteria y o-
+eficaces auxilios en los casos de in-
+ne perfecto derecho, el Gcbierno de
+tro de Caballeria, cada uno de los
+cendio, conforme al reglanento que
+Bolivia se negase á reconocer la jus-
+cuiles será niandado por un Coro-
+ticia de esta demanda, habria llega-
+se dictará por separado.
+nel de la respectiva arma.
+Art. 3. Los bom boros vigila-
+do el caso de emplear la fuerza pa-
+2. El Regimiento de infante-
+rán tambien la poblacion, como auxi-
+ria con-tará de dos batallones, el 1.5
+ra revindicar la dignidad y el honor
+liares de los vigilantes montalos, y
+de la Nacion:
+con quinientas sesenta plazas de ar-
+desempenarán las conisiones qae, en
+4.o Que al Congreso le cnmple
+mas, dividido en ocho compaiias de
+lo relativo á la conservacion del ór-
+determinar los medios extraorlinarios
+a setenta plazas, fuera de banda, y
+den y de la seguridal piblica, les
+que para semejante fin se necesitan,
+el 2. o con cuatrocientas ochenta pla-
+encargnen las autoridades politicas de
+-Zas de armas, dividilo tambien en
+
+RESUELVE:
+la Capital.;
+ocho compauias de a sesenta plazis
+Art. 4.o La Compnin será
+Art. 1. El Poder Ejecutivo
+cala uia, fuera de banda. La plana
+mandada por el Jefe de biberos en
+exijirá del Gobierno de Bolivia la re-
+myor y las companias de cada ba-
+todo lo relativo al servicio de las
+paracion y la mas cumplida satisfac-
+tailon se compondrán de las mismas
+bonbas; pero cuando e-té empleads
+cion por las mencionadas injurius; que-
+plazas de jefes y oiciales que tienen
+en el ctidalo de la segnridad pibii-
+dando autorizado:
+los batallones del ejercito.
+1.0 Para declarar y hacer
+ca, solo tendri por jefe l Capitan,
+3. El Regimiento de caballe-
+con depenlencia, en amhos casos, dle
+la guerra al Gobierno de Bolivia, si,
+ria constará de trescientas seenta pla-
+por los metios diplomaticos y los coer-
+la Prelectnra é intendenci de Policia.
+zas; se dividird en cuatro escualrones
+citivos, no lograse establecer una paz
+Art. 5.3 Los in:lividuos tle es-
+tle dus companias cala uno,y en sn
+solida y honrosa:
+ta Compania serán contratados por
+plant mayor y ofciales, se igualara
+2. Para aumentar el Ejer-
+cuatro anos; pero polrá separar-
+a los cuerpos Gel ejercito.
+cito lasta quince mil hombres, si asi
+4.2 Todas las fuezas de Gen-
+los el Gobierno, antes de este tér-
+mino, si no consilerase itiles sus ser-
+lo juzga indispensable paru el objeto
+darmeria de la Capital, formaran una
+vicios, o si faltasen à sus deberes.
+brigida de seguridad piblica, bajo
+indicalo:
+Para negociar empresti-
+3.0
+Art. 6. Ios Celadores bom-
+las ordenes del Prefecto.
+5. La hrigala de qne habla
+tos hasta la cantidad de cuatro mi-
+beros tendran, ademas de las calila-
+lones de pesos, que se emplearán
+des personales qne determina el arti-
+el articulo anterior, sera mandidt por
+túnica y esclusivamente en los gastos
+culo 3. del decreto de 7 de Abril
+un General que nombrará el Gobierno.
+de la guerra:
+de 1856, las qule son inlispensables
+6. El priner batalioa estara
+4.o Para disponer de la Guar-
+para desenpeliar el servicio de bom-
+destinado al servicio de pitrullas y
+dia Nacional dentro ó fuera del ter-
+retenes dentro de la poblacion; a cu-
+bas.
+ritorio del Perú.
+Art. 7. Dichos individuos ce-
+brir los pnestos de guardia gne, se-
+Art. 2. El Presidente de la
+saran, sin goce alguno, exceptuaudo
+gun las disposicioues del Gobierno,
+Repuiblica podrá mandar en persona
+los que se iuutilizen ó perezcan en
+designe la Prefeetnra; y a hacer cnm-
+el desempeiio de sits funciones, los
+la fuerza armada, y salir dul territo-
+plir las ordenes de las autorilales.
+qle disfrutarin de los mismos goces
+rio nacional, si asi lo juzga conve-
+El 2. se eonpondrá exelusivamente
+niente al bnen exito de las operacio-
+seilalados para estos casos a los in-
+de lo serenos ó vigilantes de noche.
+7. El Regimiento de cabille-
+dividuos del Ejercito.
+nes militares.
+Art. 8. Los Insjectores de la
+Art. 3.0 Luego que se celebre
+ria hari el servicio de vigilantes de
+Compalia de seguridnd piblica, crea-
+dia y de noche, y dara los destaca-
+la paz ó desaparezcar los motivos de
+da por decreto de 2i de Febrero uil-
+la guerra, se reducira el Ejército al
+mentos y patrullas del campo, y las
+timo, pasarán en su mima clase a
+que deben ronlar, durante la noche,
+pié en que debe mantenerse ordina-
+prestar suis servicios en la Compania
+por los contornos y extranuros de
+riamente, segun la ley.
+Art. 4. Del uso de la presens
+de bomberos y de, los Celalores se
+la cindad.
+8. Se sitnará en la Capital
+elegirá a los qte, a juicio del Jefe,
+te autorizacion se dará cuenta deta-
+tengan laa calidades necesarias y qnie-
+el nimero de vigilantes que sea ne-
+Hadn al Congreso.
+Comuniquese al Poder Ejecuti-
+ran contratarse pata este nievo ser-
+cesario para cuidar durante el dia,
+vicio, despidiendose a los demdas.
+del órlen, de la moralidal piblica y
+vo, para gue disponga lo necesario
+Art. 9. Para lenar las Vacan-
+de la segnridad de los vecinos. Es-
+a su cumplimiento.
+Dada en Lima a 16 de Noviem-
+tes de Inspectoresqie ocurran, pro-
+tos vigilantes harán el servicio monta-
+pondra el Jefe al Viinisterio de Go.
+dus, sin otras armas qie un sable y
+bre de 1860-Manuel de Mendiburu,
+bierno, por el conduicto debido, a los
+una pistola, y perinaneceyár en sus
+Vice-Presidente- Variuno Loli, Se-
+puestos, rondando por las calles qne
+individuos que considere dignos y a-
+cretario—Munuel Antonio Zarate, Se-
+les estén asiguadas, deade las seis de
+parentes para que sean nombrados
+cretario.
+la maana, hasta las seis de la tarde.
+por el Gobierno.  Las plazas de ca.
+Al Presidente de la República.
+9. A esta hora seráu releyl-
+bos y bomberos las proveerá el In-","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_024,datos/raw/documentos/doc_024.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","REGISTRO OFICIAL
+lan
+f8.17
+-
+Del MDeaartaeemto.
+NUM.1.0
+CUZCO I8 DE ENERO DE I862.
+TOMOXII.
+jos pupilos 6 sirvientes menores de
+pone: 1. Los Prefectos de los De-
+Ministcrto De aictenDa
+Los Prefeetos da-
+catorce anos: 4.0
+partamentos expediran las brdenes ne-
+ Comercto.
+rán cuenta al Ministerio de las escue-
+cesatias para que e establezcan es
+las existentes y de las que succesi-
+Republica Pernuna-Ministerio de Ha-
+cuelas de primeras letras c, losluga-
+vaniente vayan estableciendose, para
+res desigundos en el presuotesto; 2.
+ciendu y Comercio-Lima, Noviem-
+que mande incluir en el contingente
+Los maestros serán nombrados por la
+el importe de los snellos: 5.o Los
+bre 25 de 1861.
+Comision d partamental deinstruceion
+Tesoreros y pagadores no abonarán
+Sr. Prefecto del Departamento del
+á propuesta de lu provineial, la que
+los sueldos A los maestros, sin que es-
+examinara á los pretendientes para
+Cuzco.
+tos presenten el correspondiente cer-
+CIRCULAR.
+cerciorarse de sus aptitudes y capa
+tifcado de la comision parroquial ó
+Por el Ministerio de Justicia y
+cidud para el desempeno de este car-
+provincial 6 en defecto de ambas, de
+go: 3. Las Comisiones provincial
+con fecha 20 del actual ha tenido a
+la ajencia munieipal.""
+y parroguial respectivamente inspec-
+Que traseribo á Us. para su in-
+bien S. E. el Presidente expedir la
+cionará las escuelas, cuidando de que
+resolucion siguiente.
+teligencia y consiguientes efectos.
+""Para dar cumplimiento al pres-
+los muestros cumplan sus deberes y
+Dios guarde á US.José Fabio
+que los padres y guardadores ó pa-
+pnesto general de la Reptiblica en lo
+Melgar.
+trones manden á la escuela á sus hi.
+relativo á instruccion primaria, se dis-
+AL ANO.AL BIENT OTALS.
+ESCUELAS CONSIDERADAS PORAL ANCL BIENTOTALS
+FL PRESUPUESTO GENERAL DE LA RE-
+
+Para cuatro preceptores y cua-
+31150
+385
+PUBLICA EN EL
+DEPARTAMENTO DEL CUZCO.
+tro preceptoras en los pueblos
+926
+YID
+de Acos, Pomacanchi, Sangarará y
+0.8
+Cuzco.
+00上
+371
+A1 Colegio de Ciencias y artes,
+Rondocan, á trescientos sesenta
+90
+pesos cada uno, dos mil ocho-
+dos cátedras á ochocientos pesos,
+1600
+2880
+cada una, mil seiscientos pesos..
+Cientos ochenta pesos..........
+151525
+372
+Para doce preceptores en Huai-
+IOXF
+Al idem de Ciencias del (uz
+386
+810
+qni, Marcaconga, Santa Lucia,
+13BT6
+4000
+co, para sus atenciones cuatro
+mil pesosaoo.
+Iupr
+San Juan, Acopia, Mosocllacta,
+fop
+3000
+Al Seminario de San Antonio
+378
+Yanacpampa, Pirqne, Papres, San-
+Abad tres mil pes os....
+ca y Corima, a trescientos pesos
+3600
+3000
+374
+cada uno, tres mil seiscientos ps.
+Al Colegio de educandas, tres
+1
+744014880
+375
+014
+Canchis
+A la Directeora de mùsica del
+600
+0
+mismo, seiscientos pesos.
+T
+Para un preceptor y una pre-
+387
+376
+Para dos preceptores en la ciu-
+
+1200
+ceptora en Sicnani, capital de la
+dad del Cuzco á seiscientos pesos
+0S
+provincia, a cuatrocientos ochen-
+cada unog, mil doscientos pesos..
+377
+Para tres preceptoras en idem,
+la pesos cada uno, novecientos
+1
+960
+1800
+A
+a seiscientos pesos cada una, mil
+388
+Para siete preceptores en Ma-
+ochocientos pesos...........
+.202
+378
+Para ocho preceptores en Be-
+114
+rangani, San Pablo, Cacha, Tin-
+ta, Tongasu ca, Checacupe y Com-
+len, Santiago, Santa Anr,San Cris-
+bapata, á trescientos ses enta pe-
+toval, San Sebastian, el Hospital,
+sos cada uno, dos mil quinien-
+San Geróuimo y San Blas, a tres-
+2520
+2880
+tos veinte pesos.....
+cieutos sesenta pesos cada uno
+389
+Para una preceptora en Com-
+dos mil ochocientos oehenta pesos
+360
+360
+bapata, á trescientos sesenta ps..
+379
+Para una preceptora en el Hos
+Para cuatro preceptores en
+390
+pital, trescientos sesenta pesos..
+36880
+18440
+Santa Bárbara, Pampamarca, Su-
+1519970
+rimana y Pitunarca, á trescien-
+Quispicanchi.
+tos pesos cada uno, mil doscien-
+dTAS
+380 Para un preceptor y una pre
+02
+tos pesosn.e.....
+1200
+2orotf
+5nei
+0
+9
+0
+ceptora en Urcos capital de la
+st
+a8
+provincia, ál cuatrocientos ochen
+Jesd
+Canas.
+504010080
+ta pesos cada uno, novecientos
+B
+960
+sesentapesos..........
+0esi
+Para un preceptor y nna pre-
+391
+381
+Para tres preceptores en Qui-
+89
+28
+ceptora en Coporaque, á cuatro-
+quijana, Oropesa y Marcapata a
+7I6T
+cientos ochenta. pesos cada uno,
+trescientos sesentu pesos cada uno,
+804
+1080
+-0
+novecientos sesenta pesos.......
+mil ochenta pesos....
+960
+ob
+392
+382
+Para cuatro precoptores y cua-
+Para tres preceptoras en los mis
+tro preceptoras en Yanaoca, Yau-
+mos pueblos, á trescientos sesenta
+1080
+ri, Pichihua y Layo, á trescien-
+pesos cada una, mil ochenta ps..
+383
+Para cinco preceptores en los
+tos sesenta pesos cada uno, dos
+
+号
+051
+STET
+mil ochocientos ochenta pesos..
+pueblos de Yaucac, Andahuay-
+2880
+lillas, Lucre, Huaro y Ocongate,
+393
+B
+Para cuatro preceptores en Che-
+anu
+á trescientos pesos cala uno, mil
+ca, Quehue, Langui y Ocoruro, a
+01O
+1500
+ao
+quinientospesos.......
+trescientcs pesos cada uno, mil
+小
+B
+doscientos pesos...….....
+1200
+9240
+Acomayo.
+4620
+Abancay..
+C
+5040
+10080
+384
+Para un preceptor y una pre
+ol
+
+ou
+ceptora en la capital de Acona-
+Para un preceptor y una pre-
+394
+yo. á cuatrocientos ochenta pe-
+ceptora en Abancay capital de
+人
+sos cada uno, novecientos sesen-
+la provincia, á cuatrocientos o-
+ta pesos.........
+960
+chenta pesos cada uno, novecien-
+1
+T10 T791
+012e
+BOHAA OGAAAM HOT
+01101
+福","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+doc_025,datos/raw/documentos/doc_025.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","REGISTRO OFICIAL
+BDel Dearaaento.
+TOMO XIII.
+NUM. 6.
+CUZCO IA DE FEBRERO DE I862.
+nota fecha 18 del presente, rabrica-
+Ministerto De Susticia, Enstruc-
+instituciones distintasVista la con-
+da por S. E. el Presidente de la Re-
+cton D Scncticcncta.
+sulta del Reetor de la Universidad
+páblica, remite a la Comision per-
+del Cuzco y el informe del Vicario
+Inanente el Presupuesto General dado
+Capitulur y de acuerdo con lo es-
+SECCION DE INSTRUCOION.
+por la fultima Legislatura para el bienio
+puesto por la Direccion Generai de
+de 861 y 862, con las observacio-
+Estudios, Rector de Ia Universidnd
+nes hechas por la Direccion de Ha-
+Re:iblica Peruana.Ministerio de
+de ""San Marcos"" de esta Capital, y
+cienda, en las que se nota duplica-
+Justicia, Insionccion y Benefcencia.
+con el dictamen del Fical de la
+-Lima, Lnero 8 de 1862.
+cion de algunas partidas, la no exis-
+Corte Supreina: Se resuelve que
+tencia de otras, haberse aumentado
+siendo puiblica la Uuiversidad de
+Sr. Prefecto del Departamento del
+el producto de alg inos ramos y dis-
+""San Antonio Abad y por con-
+minuido el de otros, y que con es-
+Cuzco.
+siguiente sujeta al Gobierno, cum-
+Con motivo de haberse escusa-
+tos inconvenientes el Gobierno se ha
+pla el Rector con remitir el proyee-
+do el Rector de la Uuniversidad de
+colocado en una dificil y penosa si-
+to de los Estatutos en el término im.
+tuacion, creyendo conveniente presen-
+esa Cindad  remitir el proyecto de
+prorrogable de dos meses, debiendo
+Reglamento que se le tiene pedido;
+taros estas consileraciones, para que
+ser reemplazado en el cargo si por
+las tomeis en cuenta y os sirvais
+S. E. el Presidente en acuerdo de
+mas tiempo continua desobedeciendo
+hoy, se ha servido expedir el si-
+iiustrarlo con vuestro respetable pa-
+las ordenes que se le impartan.""
+recer, acerca del modo qule habia de
+gniente decreto:
+Qne trascribo á US. para su in-
+emplearse para subsanar estos defec-
+""En consideracion á que por de-
+teligencia y demas efectos.
+tos, de manera que el Gobierno pue-
+creto de 20 de Marzo de 1861
+Dios guarde á US.
+da disponer de los recursos que ne-
+se ordenò que el Rector de la Uni-
+Juan Oviedo.
+cesite para conservar el orden púi-
+versidad de ""San Antonio Abad""
+blico y el decoro nacional; y para
+del Cuzco, sin alegar escusa m pre-
+mayor inteligencia adjunta los traba-
+Ministerio De Guerra y Marina.
+testo alguno, remitiese el proyecto
+jos ejecutados por el Director gene-
+de log Estatutos para dicha Univer-
+ral de Hacienda.
+sidad en el improrogable término de
+Lima, Enero 14 de 1862.
+Muy particularmente lama vues-
+tres meses, reservaudose el Gobier-
+Estando para terininurse la cons-
+tra atencion, por no haberse deduci-
+no adoptar otras medidas si sus man-
+truecion de los cuatro vapores destina-
+do del producto del guano los cinco
+datos no fuesen puntualmente obe-
+dos á la navegacion fuvial del Amazo-
+millones seiscientos setenta y cuatro
+decidos: que esta disposicion fué o-
+nas y sus afluentes, asi como tambien
+mil seiscientos noventa y seis pesos
+la de los dos que deben servir en el
+riginada por las repetidas quejas que
+gne se debian á los consignatorios
+se elevaban de la conducta observa-
+Lago de Titicaca; y debiendo darse á
+hasta fines de 860; y q'se haya vo-
+cada uno de ellos el nombre que los
+da por el Rector y por los graves
+-tado en el Presupnesto General tan
+distinga, se dispone: que los mayores
+perjuicios que con ella irrogaba ǎ la
+solamente diez millones de pesos para
+juventud estudiosa, negandose á con-
+del porte de quinientas toneladas, ca-
+da uno, para la navegacion del Ama-
+todo gasto de guerra, marina y gen
+ferir grados universitarios y hasta des-
+zonas, se llamen en adelante, el uno
+darmeria, cuando en el proyecto que
+conociendo en el Ejecutivo la fa-
+Morona y el otro Pastaza; los dos
+presentó el Ejecutivo, ascendia el pe-
+cultad de reglamentar las Universi-
+pequenos para la exploracion de los
+dido á la cantidad de once millones
+dades: Que en nota de 8 de Ma-
+affuentes Putumayo y Npo, y los del
+cuatrocientos noventa y un mil dos-
+yo último, el Rector de la Univer-
+Lago de Titicaca, Ypura y Yavari.
+cientos ochenta pesos, sin inclusion
+sidad del Cnzco se escusa de re-
+—Comuniquese y publiquese,—Rúbri-
+de la gendarmeria, qie se presupues-
+mitir el proyecto de Reglamento pe-
+tó separadamente en el respeetivo
+ca de S. E.—Freire.
+dido, alegando que dicha Universi-
+(Del Peruauo N. 4 T. 42)
+pliego, en cinco millones cuatrocien-
+dad es lontificia y que estando a-
+tos veinte mil treinta y seis pesos; y
+nexa al Seminario, reglamentar à la
+sin considerarse el gasto que necesa-
+primera equivaldria á hacerlo con el
+Ministerio De arienda
+riamente debe ocasionar la compos-
+iiltimo, lo que no puede el Gobier-
+D Comerrio.
+tura y conservacion de cuarteles, es-
+no hacer ni atropellar los derechos
+tablecimientos militares, valor de ves-
+de la Iglesia Católica: y atendien-
+Republica Peruana-Secretaria de la
+tuario, equipo, armamento, repnesto
+do 1.o i que en la bula de Ino-
+para el Ejercito, reparacion de buynes
+Comision Permanente del Cuerpo
+cencio Xll, no se crea una verda-
+de la escuadra y otras dependencias
+Legislutivo-Lima, á 2 de Agosto
+dera Universidad en el Cuzco si no
+de los ramos de guerra y marina;
+de1861.
+se habilita al Colegio de ""San An-
+Señor Ministro de Estado en el
+y qne habiendose votido solo diez
+tonio Abad,"" para conferir grados en
+nillones, para  subvenir á estos pre-
+departamento de Hacienda.
+cisos gastos resultará sin duda el def-
+S. M.
+de dichos Colegios, mientras y has-
+He puesto en conocimiento de la
+cit de tres millones, aun haciendo uso
+t que se erijiere una Universidad
+de la autorizacion que el Congreso le
+Comision permanente del Cuerpo Le-
+pibica en la Ciudad del Cuzco, se-
+gislativo la apreciable nota de US.
+dio en 21 de Noviembre de Si0, pa-
+gun consta testualmente de la co-
+ra gastar cuatro millones er el caso
+fecha 18 de Julio pròximo pasado, con
+piu antèutica de dicha bula que obra
+de elevar el Ejército al pie de quince
+la que se sirve remitirme el Presu-
+en este expediente: 2. Que por ley
+mil hombres de fuerza. Vuestra Co-
+puesto General de la Repùblica y
+de l1 de Junio de 1828-se dio
+los trabajos qne con relacion á él ha
+practicado la Direccion General de.
+dictaminar en un asuuto ajeno de sis
+atribuciones, pere al fin se ha decidi-
+Hacienda; á fin de que la expresada
+restituyese al local del Colegio de
+Comision determine el nodo por el
+do á presentaros su opinion.
+La falta que se nota de no ha-
+ducado en virtud de esta ley la au-
+berse deducido del producto del gua-
+á juicio del Ejecutivo, tiene el men-
+no la suma de los cinco milones seis-
+cionado Presupuesto.
+cientos setenta y. cuatro mil seicien-
+La Comision ha examinado este
+tos noventa y seis pesos que se de.
+asunto cou la seria y detenida aten-
+bia á los consiguatarios, es de respon-
+cion que su naturaleza exije: y ha
+sabilidad exclusiva del Ministerio; pues
+aprobado en sesion de la fecha, el
+en el proyecto de presnpuesto qie se
+dictamen de la Comision especial que
+tuvo á bien nombrar y que á la le-
+cia de estar la del Cuzco estableei-
+signaba para este pago; y como, por
+tra es como sigue:
+Otra parte, el Senor Ministro de Ha
+"" El Mistro de Hacienda en su
+rio no da un solo caracter ó dos","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
