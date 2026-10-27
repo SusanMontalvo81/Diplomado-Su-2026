@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+.venv-*/
+venv/
+
+# Secretos (API keys)
+.env
+.streamlit/secrets.toml
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Corpus original y salidas pesadas (se recuperan con datos/fuentes.csv)
+datos/raw/
+
+# Pesos de modelos
+modelos/*.safetensors
+modelos/*.bin
+modelos/*.pt
+modelos/*.onnx
+modelos/checkpoint-*/
+
+# Sistema
+.DS_Store
