@@ -1,0 +1,39 @@
+# Python 3.12 · versiones compatibles con Mac Intel (x86_64):
+# PyTorch 2.2.2 es la última versión para Mac Intel y requiere NumPy 1.x
+#   pip install -r requirements.txt
+
+# Recolección (scraping)
+requests==2.32.3
+beautifulsoup4==4.13.3
+lxml==5.3.1
+tqdm==4.67.1
+
+# Datos, EDA y gráficos
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.10.1
+seaborn==0.13.2
+plotly==6.0.0
+
+# Modelado y evaluación
+scikit-learn==1.6.1
+torch==2.2.2
+transformers==4.49.0
+accelerate==1.4.0
+sentencepiece==0.2.0
+protobuf==5.29.3
+
+# LLM (Gemini)
+google-genai==2.33.0
+cryptography==45.0.7
+pydantic==2.14.1
+python-dotenv==1.0.1
+
+# Notebooks
+jupyterlab==4.3.5
+ipykernel==6.29.5
+nbformat==5.10.4
+nbclient==0.10.2
+
+# Dashboard
+streamlit==1.42.2

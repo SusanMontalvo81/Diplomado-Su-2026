@@ -1,0 +1,36 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Secretos (API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Artefactos pesados del modelo (solo se versionan archivos ligeros)
+modelo/checkpoints/
+modelo/*.pkl
+modelo/*.joblib
+modelo/*.bin
+modelo/*.pt
+modelo/*.pth
+modelo/*.h5
+modelo/*.safetensors
+modelo/*.onnx
+
+# Datos crudos o intermedios pesados
+datos/raw/*
+!datos/raw/noticias_crudo.csv
+datos/*.parquet
+datos/*.zip
+
+# Sistema
+.DS_Store
