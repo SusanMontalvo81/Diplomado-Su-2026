@@ -13,6 +13,7 @@ import streamlit as st
 RAIZ = Path(__file__).parent
 DATOS = RAIZ / "datos"
 MODELO = RAIZ / "modelo"
+MODELO_HF = "SusanSari/clasificador-titulares-elcomercio"  # copia pública de los pesos (no caben en GitHub)
 
 NOMBRES = {
     "politica": "Política",
@@ -49,14 +50,11 @@ def cargar_clasificador():
     if (MODELO / "model.safetensors").exists():
         origen = str(MODELO)
     else:
-        origen = os.getenv("MODELO_HF")
-        try:
-            origen = origen or st.secrets.get("MODELO_HF")
-        except FileNotFoundError:  # sin archivo de secretos
-            pass
-        if not origen:
-            return None
-    return pipeline("text-classification", model=origen, top_k=None)
+        origen = os.getenv("MODELO_HF", MODELO_HF)
+    try:
+        return pipeline("text-classification", model=origen, top_k=None)
+    except OSError:  # no se encontró el modelo ni local ni en Hugging Face
+        return None
 
 
 noticias = cargar_noticias()

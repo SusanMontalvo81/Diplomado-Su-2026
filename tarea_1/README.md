@@ -107,7 +107,11 @@ por las noticias más recientes.
 
 ## Despliegue
 
-Opcional, en Streamlit Community Cloud (https://share.streamlit.io): se crea una app desde este repositorio con
-`tarea_1/app.py` como archivo principal y Python 3.12. Como los pesos del modelo no están en GitHub, el probador los
-descarga de Hugging Face si se define el secreto `MODELO_HF` con el nombre del repositorio del modelo
-(por ejemplo, `usuario/clasificador-titulares`).
+El dashboard se despliega en Streamlit Community Cloud (https://share.streamlit.io) desde este repositorio:
+
+- **Archivo principal:** `tarea_1/app.py` · **Python:** 3.12
+- **Modelo:** como los pesos no caben en GitHub, están publicados en Hugging Face:
+  https://huggingface.co/SusanSari/clasificador-titulares-elcomercio. Si `modelo/model.safetensors` no existe
+  (como en el servidor), el probador descarga el modelo desde ahí.
+- **Dependencias:** `requirements.txt` instala en Linux la versión de PyTorch sin GPU, para que la instalación sea
+  más liviana.
