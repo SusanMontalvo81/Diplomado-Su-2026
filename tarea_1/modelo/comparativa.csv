@@ -1,0 +1,4 @@
+,modelo,evaluado_en,n,accuracy,f1_macro,seg_por_titular,costo
+Zero-shot,joeddav/xlm-roberta-large-xnli,40 titulares (10 por categoría),40,0.75,0.749,1.439,"Gratis; local en CPU, modelo de ~2 GB sin entrenamiento"
+LLM débil,gemini-3.5-flash-lite,Test,54,0.963,0.964,0.14,"API externa: gratis con límites de uso, de pago a escala; requiere internet"
+Fine-tuned,distilbert-base-multilingual-cased,Test,54,0.889,0.891,0.031,"Gratis; local en CPU, ~500 MB; requiere entrenar (minutos)"
