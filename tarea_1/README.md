@@ -1,5 +1,7 @@
 # Tarea 1 · Clasificación de titulares de noticias
 
+**Dashboard en línea:** https://clasificador-titulares.streamlit.app/
+
 ## Pregunta del proyecto
 
 **¿Puede un modelo ligero, entrenado solo con etiquetas generadas por un LLM, clasificar titulares de noticias
@@ -107,7 +109,9 @@ por las noticias más recientes.
 
 ## Despliegue
 
-El dashboard se despliega en Streamlit Community Cloud (https://share.streamlit.io) desde este repositorio:
+El dashboard está publicado en Streamlit Community Cloud: **https://clasificador-titulares.streamlit.app/**
+
+Se despliega desde este repositorio con esta configuración:
 
 - **Archivo principal:** `tarea_1/app.py` · **Python:** 3.12
 - **Modelo:** como los pesos no caben en GitHub, están publicados en Hugging Face:
