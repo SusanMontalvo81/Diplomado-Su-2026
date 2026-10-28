@@ -77,6 +77,8 @@ Resultados Test: WER: 0.32 | CER: 0.38 | Acuerdo LLM-Humano: 17/20
    - **fuerza una sola ficha** en páginas que reúnen varios documentos: eligió el emisor y el monto de uno solo de varios decretos;
    - es **inconsistente** con los errores del OCR: a veces los copia ("LS57" por 1857) y a veces los corrige.
 
+   Además, **el LLM puede deshacer la seudonimización**. Reconstruyó el nombre completo de un notario a partir de restos deformados del OCR, y agregó al resumen de un audio un nombre que no estaba en la transcripción. Por eso sus fichas también se seudonimizan antes de publicarse.
+
    Para un archivo buscable convendría una ficha por documento, y no por página, y separar la *fecha de publicación* de la *fecha del hecho*. Además, la auditoría mostró que la diarización subestima el número de voces cuando el entrevistador solo hace preguntas breves.
 
 ## Limitaciones técnicas
@@ -110,6 +112,14 @@ Se corrigió en el commit `1ce2e0a` (Parte 2):
 - La verificación final, al final de la sección 4 de `02_evaluacion.ipynb`, comprueba los textos publicados de audio y manuscritos con la lista revisada y con el modelo NER.
 
 **La versión válida es la actual.** Las versiones anteriores de `datos/documentos.csv` en el historial de Git no deben usarse ni citarse.
+
+### Nota: fichas del LLM sin seudonimizar en versiones anteriores
+
+Las versiones de `datos/extraccion_llm.csv` subidas entre los commits `6f86e11` y `92383ef` (28/10/2026) publicaban la salida de Gemini sin seudonimizar. Contenían dos nombres:
+- en `doc_014`, el nombre completo de un notario, que Gemini reconstruyó a partir de restos deformados del OCR;
+- en `clip_003`, un nombre que Gemini agregó al resumen y que no está en la transcripción.
+
+Desde el commit siguiente, `02_evaluacion.ipynb` seudonimiza las fichas de audios y manuscritos antes de guardarlas, y la verificación final también las revisa. Las versiones anteriores de ese archivo no deben usarse ni citarse.
 
 ## Estructura
 
