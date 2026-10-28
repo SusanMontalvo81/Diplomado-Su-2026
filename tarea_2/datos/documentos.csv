@@ -10,7 +10,7 @@ ESTUDIO DE LUIS MIGUEL GLAVE
 CON COLABORACION DE DONATO AMADO
 Universidad Nacional San Antonio Abad del Cusco
 Archivo Departamental del Cusco
-Centro de Estudios Regionales Andinos Bartolomé de Las Casas","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+Centro de Estudios Regionales Andinos Bartolomé de Las Casas","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",CATALOGO DE PERIODICOS CUSQUEÑOS DEL SIGLO XIX UNIVERSIDAD NACIONAL DE SAN ANTONIO ABAD DEL CUSCO BIBLIOTECA CENTRAL-HEMEROTECA ARCHIVO DEPARTAMENTAL DEL CUSCO ESTUDIO DE LUIS MIGUEL GLAVE CON COLABORACIÓN DE DONATO AMADO UNIVERSIDAD NACIONAL SAN ANTONIO ABAD DEL CUSCO ARCHIVO DEPARTAMENTAL DEL CUSCO CENTRO DE ESTUDIOS REGIONALES ANDINOS BARTOLOMÉ DE LAS CASAS
 doc_002,datos/raw/documentos/doc_002.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","ARCHIVOS DE HISTORIA ANDINA
 34
 CBC-SID
@@ -42,7 +42,9 @@ Cusco, Perú
 E-mail: cbcimpta@apu.cbc.org.pe
 ISBN 9972-691-23-3
 ISSN 1022-0879
-Noviembre, 1999","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+Noviembre, 1999","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","ARCHIVOS DE HISTORIA ANDINA 34 CBC-SID Glave Testino, Luis Miguel
+Catálogo de periódicos cusqueños del siglo XIX: Universidad Nacional de San Antonio Abad del Cusco,. Biblioteca Central-Hemeroteca, Archivo Departamental del Cusco/estudio de Luis Miguel Glave con colaboración de Donato Amado.-Cusco: Universidad Nacional San Antonio Abad del Cusco; Archivo Departamental del Cusco; CBC, 1999.
+72 p. - (Archivos de Historia Andina, 34)"
 doc_003,datos/raw/documentos/doc_003.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","INDICE
 Periódicos cusqueños del siglo XIX
 Luis Miguel Glave
@@ -74,7 +76,8 @@ mental del Cusco tienen el agrado de poner al servicio de la comunidad el ""Cat�
 que se publica en la presente edición.
 Mg. Mario Góngora Santa Cruz
 RECTOR UNSAAC
-7","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+7","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","PRESENTACIÓN
+En la Hemeroteca de la Biblioteca Central de la Universidad de San Antonio Abad del Cusco y en el Archivo Departamental del Cusco se han guardado periódicos del siglo XIX que en virtud a un convenio suscrito entre ambas instituciones y gracias al apoyo de una subvención otorgada por la Widener Library de la Universidad de Harvard (EE.UU.) han sido restaurados, catalogados, registrados y puestos en servicio."
 doc_005,datos/raw/documentos/doc_005.png,impreso,"Captura propia del PDF de Glave, L. M. (1999). Catálogo de periódicos cusqueños del siglo XIX. UNSAAC / Archivo Departamental del Cusco / CBC — © Derechos reservados; uso académico del texto, imagen no publicada","PRESENTACION
 En el siglo XIX hubo en la ciudad del Cusco una importantísima producción
 periodistica. Las más cotidianas vivencias del pueblo se transmitían a través de esas
@@ -248,7 +251,7 @@ m PERSONA_42 y PERSONA_04 PERSONA_37 son
 duenos de la aasa musnero einerenba y dor de la ealle
 de Avemida oe esfa einda, por haberla eompprado
 de los potos PERSONA_39 PERSONA_27,
-D. Pancieo balvo y teandra Uneres en I suna de
+D. PERSONA_65 y PERSONA_66 en I suna de
 moveeientos soles, de la ertencion ae eienbo veinbe metos eua
 drados, aiendo suo hinderoo: al . le oaa de Enngue M
 mes del PERSONA_48; al d,la de PERSONA_41; al 4, la
@@ -282,7 +285,13 @@ dam m altieresis las bin'dao m'nm eroo ein-
 cuentidos A f cineuentidos B cincluoive mna eoei
 mita pentmeeimte a eeta caea, a dona bo dan
 PERSONA_30, por la eamtidad de seiseientos soles
-010068002 PERSONA_19 PERSONA_37 hi","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+010068002 PERSONA_19 PERSONA_37 hi","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","3056169269
+Ciento treinta y cinco
+LXVIII
+Ind. de J. 1129 Nº 1127 Id. de P. 122
+010068/001
+Casa número cincuenta y dos de la calle de Avenida de esta ciudad.
+PERSONA_19 y su esposa PERSONA_37 son dueños de la casa número cincuenta y dos de la calle de Avenida de esta ciudad, por haberla comprado de los esposos PERSONA_39 y PERSONA_27, D. PERSONA_65 y PERSONA_66 en la suma de novecientos soles, de la extencion de ciento veinte metros cua- "
 doc_010,datos/raw/documentos/doc_010.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","3050130270
 leiento treint cinco-
 y por il te'mino de cinco anoo fozoeo,
@@ -363,7 +372,7 @@ fo uuareetidn agrobado perel oeisr fue leta cacrsa dodor dol
 fbasillo, r aut de seitisis de setieubre del miso ao, bao
 pa uierverero del baeeiba fose G.barreino; segri coete
 do tos madaniet gerados or el fnet de Creciera Lectaea
-edoercado otos m PERSONA_63 Linares . coc ferlea oeinkedoa olel
+edoercado otos m PERSONA_63 PERSONA_63 . coc ferlea oeinkedoa olel
 peral, gue tar side reseutados loy a hsas craboy nce-
 ra s.m euno aareee m el Siario, tino oesecktes,stio se.
 feniana ninero ginieos cieeehseis; ede
@@ -409,7 +418,7 @@ odeea escitira qublica aorgada od pet dela caea dod.ge
 mars deagon,eexebeldia del deferlsorle lereuea delguefue tni
 fuel  Sandfas efectado, con secla dieciseis de sebrero de mil neo.
 ecieuts cnarentseis, acleel Dotarco Riblieo aaleo Fereau.
-les Baca, con cerkisieados ha eido resetados hoahsras
+les PERSONA_24, con cerkisieados ha eido resetados hoahsras
 oymedia pm.eomo aranece enel siano,tonno eeseutrea, toeio
 pesbdtieaio, minmeao niechs cimeerliooto aaregandose el
 dslieadoen el dea enatvceus veletinnceve, babelieneeeo
@@ -418,7 +427,7 @@ fesenme.otetoesekie se aeel ey
 2z
 9
 010068/009
-oliasLeini Batlo esoea doina teanitla nres lalacipeva
+oliasLeini Batlo esoea PERSONA_18 teanitla nres lalacipeva
 kasadsecims le esidad,ute yoeada  eueasaeana
 oa eer dueis yropietares de ea casainnenobeitioelo eorerceg
 eion de las dotieudas;  mieritde naberlo noradc de don PERSONA_57
@@ -448,7 +457,7 @@ Jiene del lonno S1, bolio136.L X Vll1
 010068/010
 e milmdecieees soderbidlos
 PERSONA_34
-Beisiradur
+PERSONA_34
 小
 01068/01
 PERSONA_34
@@ -461,7 +470,7 @@ Caa Ni 4a0
 Calle Avemda
 397
 Basaninnexo cnceufidos de la cudle de toenida oleestanidud.
-on tonarabar Bararas yeeposa doua mrferabiit nfia Lotirra-
+on tonarabar PERSONA_54 yeeposa doua mrferabiit nfia Lotirra-
 for,eor datos personuales dmeya consdan eu el Cegceto, comcelar
 arrialerle er ta euena de catio nif eotes,el ealo de wecio oleesta
 kasa,cazerida eu el aeielf arterir dle esta garticla, a sador dle los es
@@ -485,21 +494,21 @@ luida thnrdres alacio, nniris de laerteebido deess eoses
 presados cuudio mt poles one es e seirligto del preeio ole recta
 de eala easa, pegrin eonsfte ele la escritrafileca dedier de
 elibae de mil hoveeiertis cniinerbieno, oltrgaole or ucteel
-holarro Biolien amsder Serrrardes Baca, cefos paeles hau
+holarro Biolien amsder Serrrardes PERSONA_24, cefos paeles hau
 eido reseubados hoy a tisas muay cuateificuicogn. cono a-
 parece  el iurio,brmo aesenedibies, solis seterrteciabio, ba ei
 dninmero seiecietos aieventioeto; chugo dulieado gueoa eu
 el legafo eualronietos ooenfa,bapoel nliner oelentice.i.
 closSdeciecao oles oeuta seri aaneel,ley Odeio y
 ecitoo33so.uxo,ecers dieciocloe mifnoecieis esedidos
-on PERSONA_22 Leiva Ballon yeeosa oloina Serrrila llrrretes
-Falacios, car dafos fersoirales que ya atatecxee dlel Peges
+on PERSONA_22 PERSONA_35 yeeosa oloina Serrrila llrrretes
+PERSONA_28, car dafos fersoirales que ya atatecxee dlel Peges
 da case mielceero clinceeetidus, oleseries recidioclo mrato
 ria deeda partiolama acialidadsiaadaer eiabiocieets einle de ea
 cacte ageciida de esta cidad,eegun coeta odl cexlifieado exfe-
 ido wrel peior aecaede del bddceyo froscineial ed Bereado
 don PERSONA_62 touraeeicl,cor eota caoxee de oticienrnbre elti.
-mo,ae ymrtameude queel erclilo de don PERSONA_22 Leiva Baelon, yi-
+mo,ae ymrtameude queel erclilo de don PERSONA_22 PERSONA_35, yi-
 diedstecrigcion de ta meciorado neoa nieivexacior
 ean sido eerebiados hoya hnas dos s mn couno aarece eel di-","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
 doc_014,datos/raw/documentos/doc_014.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","398
@@ -513,14 +522,14 @@ p9494. bueo, ico de uisde uil moeleeros eseitidbe.
 
 m
 13.
-Don PERSONA_22 teiva Baloir y esposa dona PERSONA_28 tlecceres Palacios eonr
+Don PERSONA_22 teiva Baloir y esposa dona PERSONA_28 tlecceres PERSONA_28 eonr
 daos cereocales gue ya dpuleceredel Aegistio lifoteca esda casa nnei-
 mero cualnoriero serinsea sass ole la Baaole Defoifos  Boresiguacioep
 efaxlamerk deheraudacior Ofieina Buxco, eertiladorelfefe
 deSoma donBuilio bixdova fandb,cererano, oiudd,eeipleadotittidd
 verino de esta cirdad,torla cera de ciceeeeceta il aoles,taracauci
 Rar las xeapnraabilidades eu ae pdiexa ciicevir don Waslerngtorr
-meres baladios,en d enpleo gield deleetr ee oiclea inshiteiedoin
+PERSONA_28,en d enpleo gield deleetr ee oiclea inshiteiedoin
 como cobnados de lxediottsalros; eegri cmreta dela esexilera tibli
 ka detrere de yio ienno,otoneaodr acete el holaro Sibtido O
 radeoferolndes baca,eueoseertidieados tha eido aredeeedialo
@@ -533,7 +542,7 @@ Hn
 
 
 14
-besar augnoto Ouiex Dl PERSONA_48 Nna, ain do, agri b
+besar augnoto Ouiex Dl PERSONA_48 PERSONA_48, ain do, agri b
 o, netiho d rot oindad, ha Saado a r Sliso d'd
 tendas sgaradas cn lo Oumno uaron a cuar n t
 euaTro ohto  ha Oun uarcmts uun tie ho
@@ -563,7 +572,7 @@ doc_015,datos/raw/documentos/doc_015.png,manuscrito,"Captura propia: copia liter
 4031160399
 
 15
-PERSONA_22 beiva Balln  Himmila lmns PERSONA_50 de hiciva, bus
+PERSONA_22 PERSONA_35  PERSONA_35 lmns PERSONA_50 de hiciva, bus
 oo, caoo du vnin  de s l cidad, han fsaoa do a sn dse-
 Cio de las t on das insuifas n d aoino antri h o ta
 Sotda, on aniilode l int gu h otga augmlo O
@@ -582,11 +591,11 @@ usn, des d nars de
 i mimt ntut.
 t
 /6
-Hwmila lmeres PERSONA_50 cir da d Fewa e Iye
+PERSONA_28 lmeres PERSONA_50 cir da d Fewa e Iye
 asa Onara  mario besa  ea, han goaad a
 sor dieia d lo aicnu n eh giu tria m
 es t cmrueble nratr dh la faida gon Ola
-heina Ballo bor cen Iscuia d .olarama eh he
+heina PERSONA_35 bor cen Iscuia d .olarama eh he
 peder c oe fcla hran l de feteo a eino enfcdid
 Sor.ed fes bn ncoeansal oi tundo fuxgods e
 PERSONA_29 dl eo, a Car A diniula, a os
@@ -613,7 +622,9 @@ an ci tolesi Segun gens du la esuTna pe
 d liea e feda Suete ch seteenbe uetiniso o-
 Corgado anlh d ooaro beblc fhennr lo Eae
 a' pu ha Sudo frseritodo d' ch erlo de
-enhero eorn to a Mosar de i tena to r","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+enhero eorn to a Mosar de i tena to r","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","4031160399 399
+010068/015
+PERSONA_22 PERSONA_35 i PERSONA_28 de PERSONA_35, esposos, casados, vecinos de esta ciudad, han PERSONA_48 a ser dueños de las tiendas inscritas en el asiento anterior de esta partida, en mérito de la venta que le otorga PERSONA_67, con datos personales que ya constan en el Registro, por el precio de setenta mil soles; según consta de la escritura publica de fecha trece de noviembre de mil novecientos setenta, otorgado ante el notario publico"
 doc_016,datos/raw/documentos/doc_016.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","400
 010068/018
 4031160400
@@ -629,7 +640,7 @@ i  Q
 aentaasom
 8
 2
-temnila lmreres Palacios cin da de beina da par
+PERSONA_28 cin da de beina da par
 sado O ser, durna de lar acine i duaher C a
 cara Oma fria d eo patida, pn ha PERSONA_28 gen-
 prod de ana Crana kena nreia, ooechian to su
@@ -650,7 +661,11 @@ GreveismPo clent br. Fs.
 yftit
 Sa nis peta Quresd
 eiTD0
-Pasa al Tomo 21/ foleo 213","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+Pasa al Tomo 21/ foleo 213","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","4031160400
+400
+??, tomo ?, folio doscientos veintiocho, numero dos mil doscientos nueve, guardando el original en el legajo respectivo,bajo el numero doscientos treinstiseis (Derechos: diez mil ochocientos cincuenta soles segun arancel, ley 11240 en radio 255084 Cusco, diecinueve de enero de mil novecientos veintitres. f)
+PERSONA_68
+Registrador"
 doc_017,datos/raw/documentos/doc_017.png,manuscrito,"Captura propia: copia literal de partida registral, SUNARP Oficina Registral de Cusco (asientos 1911-1995) — Publicidad registral; contiene datos personales: texto seudonimizado, imagen no publicada","Kaso en la ealle
 unida Ouno
 010068/018
@@ -691,7 +706,12 @@ Suaefes linuieke ole contnu Sm
 Hino. hinfokoinhrgdanetbyve
 ko143-99s.Oo vanmoe mer
 Ro ae mil. moranfo ocmtsis.-pp= f
-Routiie en le FidheN' S6ts dlRupihs du hopiedad. Lwaro","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+Routiie en le FidheN' S6ts dlRupihs du hopiedad. Lwaro","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","0124100213 213
+Viene del tomo 126 folio 400
+Casa en la calle Avenida Cusco
+010068/018
+19
+Sobre un área total de cuatrocientos treinticinco metros cuadrados del inmueble de que se consta esta partida, su propietaria doña PERSONA_28, ha hecho construir una casa de dos pisos de la distribución siguiente: Primer piso: tienda, seis dormitorios, dos cocinas, dos habitaciones de uso multiple, baño, sala, comedor, deposito de vivienda, pasaje de ingreso.- Segundo piso, tres dormitorios y un balcón interior, muros y columnas"
 doc_018,datos/raw/documentos/doc_018.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","Tomo2
 
 
@@ -777,7 +797,16 @@ rable de vuestro valor, os haee dig~
 cienda del Conde, supe que los ser
 diosos continuaban, no su retirada
 nos de la admiracion de los pueblos,
-continuad sicmpre observando esa","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+continuad sicmpre observando esa","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","Tomo 9º 
+Registro oficial
+del
+departamento.
+Numero estraordinario.
+Cuzco, 7 de enero de 1857.[N. I.
+Parte oficial.
+Republica Peruana-Estado Mayor y Comandancia Jeneral de la 1a. Division del Sur-Alto de la Villa-Diciembre 30 de 1856.-
+sino su fuga en direccion a Omaste y que los leales Torateños los habian perseguido hasta tres leguas de distancia tiroteandolos, con lo que les ocasionaron graves pérdidas.
+Me cabe pues, ha satisfaccion de poner en conocimiento de US"
 doc_019,datos/raw/documentos/doc_019.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","REGISTROOFICIAL
 面纸
 Departamento.
@@ -864,7 +893,12 @@ tador Prenideute adoptar Ias'me
 ningonn antaridad ni finciona-
 didus taaseieuces para repirimit
 rio civil,militar à'politico'utas
-OHhJ","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+OHhJ","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","REGISTRO OFICIAL DEL DEPARTAMENTO. Numero estraordinario.
+CUZCO, 20 DE MARZO DE 1857. [N. 16.
+Parte oficial.
+ministerio
+de gobierno y obras publicas.
+los, corregirlos y extirparlos radicalmente. Con tal mira me manda que dirija a US esta comunicacion, a fin de que cuente a las autoridades de su dependencia las siguientes instrucciones a las que deberán sugetarse."
 doc_020,datos/raw/documentos/doc_020.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","2业
 
 
@@ -892,7 +926,11 @@ san a los Tibunales podria Formar
 Sala ni resolver causa alguna,sin
 que previamente se pusiera en no
 Dindosele, pues, unn'ios
-la Corte.I","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)",
+la Corte.I","PaddleOCR 3.0.3 (PP-OCRv5_mobile_det + PP-OCRv5_mobile_rec, det 1600 px, CPU, sin orientación ni desdoblado)","CIAL
+NTO
+68
+NUMERO 6.
+jueces propios pasan a ejercer sus funciones en negocio determinado, y no así a los que reciben la jurisdiccion ordinaria, en virtud del nombramiento que, conforme a las leyes, les confiere el Supremo Gobierno: pues de otro modo seria preciso que hubiera consecuencia en el cumplimiento del artículo, y ningun vocal de los que nuevamente ingresan a los Tribunales podria formar Sala ni resolver causa alguna, sin que previamente se pusiera en noticia de los litigantes su ingreso a la Corte. Dándosele, pues, una ins"
 doc_021,datos/raw/documentos/doc_021.jpg,foto,"Foto propia con celular de un ejemplar del Registro Oficial del Departamento (Cusco, Imprenta del Estado) — Dominio público (impreso de 1857-1862); foto propia, CC BY 4.0","BEGISTRO OFICIAL
 DEI DEPARTAMENTO.
 taaimurio.
