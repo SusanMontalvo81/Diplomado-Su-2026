@@ -1,0 +1,21 @@
+id,modalidad,tema,resumen,emisor,fecha,lugar,monto,numero_hablantes,citas_clave,comentario
+doc_004,documento,si,si,si,si,si,si,na,na,
+doc_005,documento,si,si,si,si,si,si,na,na,
+doc_009,documento,si,si,si,si,si,si,na,na,
+doc_011,documento,si,si,si,si,si,si,na,na,
+doc_015,documento,si,si,si,si,si,si,na,na,
+doc_016,documento,si,si,si,no,si,si,na,na,
+doc_017,documento,si,si,si,no,no,si,na,na,tomó la fecha de la anotación marginal (continuación) en vez de la del asiento donde también estaba el nombre del lugar 
+doc_018,documento,si,si,si,si,si,si,na,na,copió el error del OCR (LS57 por 1857)
+doc_019,documento,si,si,si,si,si,si,na,na,
+doc_025,documento,si,si,no,si,si,no,na,na,página con varios decretos: emisor y monto corresponden a uno solo no al documento 
+clip_001,audio,si,si,na,na,na,na,si,si,
+clip_009,audio,si,si,na,na,na,na,si,si,
+clip_010,audio,si,si,na,na,na,na,si,si,en el audio hay 2 voces; la diarización solo detectó 1
+clip_011,audio,si,si,na,na,na,na,si,si,
+clip_012,audio,si,si,na,na,na,na,si,si,
+clip_013,audio,si,si,na,na,na,na,si,si,
+clip_016,audio,si,si,na,na,na,na,si,si,
+clip_017,audio,si,si,na,na,na,na,si,si,
+clip_020,audio,si,si,na,na,na,na,si,si,
+clip_021,audio,si,si,na,na,na,na,si,si,
