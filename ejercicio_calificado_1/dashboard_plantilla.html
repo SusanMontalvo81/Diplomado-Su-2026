@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Incendios en el Perú</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f5f2;
+  --surface: #fcfcfb;
+  --border: #e4e2dc;
+  --grid: #ecebe6;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --text-3: #7a7974;
+  --veg: #eb6834;
+  --cultivo: #1baf7a;
+  --otro: #8f8e88;
+  --anp: #008300;
+  --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5; --seq-5: #256abf; --seq-6: #184f95;
+  --accent: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121211; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+    --text: #f0efec; --text-2: #c3c2b7; --text-3: #8f8e88;
+    --veg: #d95926; --cultivo: #199e70; --otro: #77766f; --anp: #3fae3f;
+    --accent: #3987e5;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121211; --surface: #1a1a19; --border: #2e2e2b; --grid: #262624;
+  --text: #f0efec; --text-2: #c3c2b7; --text-3: #8f8e88;
+  --veg: #d95926; --cultivo: #199e70; --otro: #77766f; --anp: #3fae3f;
+  --accent: #3987e5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.pagina { max-width: 1180px; margin: 0 auto; padding: 28px 16px 64px; }
+header h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+header p { margin: 0; color: var(--text-2); max-width: 760px; }
+.meta { margin-top: 10px; font-size: 13px; color: var(--text-3); }
+h2 { font-size: 18px; margin: 0 0 4px; }
+.sub { margin: 0 0 14px; color: var(--text-2); font-size: 14px; }
+.tarjeta { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 24px 0; }
+.kpi .valor { font-size: 28px; font-weight: 650; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.kpi .etiqueta { font-size: 13px; color: var(--text-2); }
+.kpi .nota { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+section { margin-top: 16px; }
+.filtros { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; font-size: 14px; }
+.filtros label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+select, .seg button {
+  font: inherit; font-size: 13px; color: var(--text); background: var(--surface);
+  border: 1px solid var(--border); border-radius: 8px; padding: 5px 10px;
+}
+.seg { display: inline-flex; }
+.seg button { cursor: pointer; border-radius: 0; margin-left: -1px; }
+.seg button:first-child { border-radius: 8px 0 0 8px; margin-left: 0; }
+.seg button:last-child { border-radius: 0 8px 8px 0; }
+.seg button[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
+#mapa { height: 560px; border-radius: 10px; border: 1px solid var(--border); background: var(--grid); }
+@media (max-width: 600px) { #mapa { height: 420px; } }
+.leyenda { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--text-2); margin-top: 10px; }
+.leyenda span { display: inline-flex; align-items: center; gap: 6px; }
+.punto { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.linea { width: 16px; height: 0; border-top: 2px dashed var(--anp); display: inline-block; }
+.rampa { width: 90px; height: 10px; border-radius: 3px; display: inline-block;
+  background: linear-gradient(90deg, var(--seq-1), var(--seq-3), var(--seq-5)); }
+.capa-puntos { pointer-events: none; }
+.barras { display: flex; flex-direction: column; gap: 4px; }
+.fila { display: grid; grid-template-columns: minmax(120px, 38%) 1fr; gap: 10px; align-items: center;
+  font-size: 13px; padding: 3px 4px; border-radius: 6px; }
+.fila:hover { background: var(--grid); }
+.fila .nombre { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fila .nombre small { color: var(--text-3); }
+.pista { display: flex; align-items: center; gap: 8px; }
+.barra { height: 14px; border-radius: 0 4px 4px 0; display: flex; overflow: hidden; gap: 2px; min-width: 2px; }
+.barra i { display: block; height: 100%; }
+.num { font-variant-numeric: tabular-nums; color: var(--text-2); white-space: nowrap; }
+.tabla-env { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 8px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th:first-child, td:first-child, th:last-child, td:last-child { text-align: left; }
+th { color: var(--text-2); font-weight: 600; cursor: pointer; user-select: none; }
+th[aria-sort] { color: var(--text); }
+tbody tr:hover { background: var(--grid); }
+#serie svg { width: 100%; height: 220px; display: block; }
+#serie text { fill: var(--text-3); font-size: 11px; }
+.tooltip { position: fixed; pointer-events: none; z-index: 1000; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12.5px; line-height: 1.45;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); max-width: 280px; display: none; }
+.tooltip b { font-weight: 600; }
+.tooltip .t-fila { display: flex; justify-content: space-between; gap: 14px; }
+.tooltip .t-fila span:last-child { font-variant-numeric: tabular-nums; }
+.metodo { font-size: 14px; color: var(--text-2); }
+.metodo h3 { font-size: 15px; color: var(--text); margin: 14px 0 4px; }
+.metodo ul { margin: 4px 0; padding-left: 20px; }
+.metodo li { margin: 3px 0; }
+.leaflet-tooltip { font-size: 12.5px; }
+footer { margin-top: 24px; font-size: 12px; color: var(--text-3); }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header>
+    <h1>Incendios en el Perú · últimos 60 días</h1>
+    <p>¿Qué zonas fueron las más afectadas por incendios de vegetación y qué tipo de cobertura se quemó?
+      Focos de calor satelitales VIIRS cruzados con la cobertura del suelo de ESA WorldCover.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <section class="tarjeta">
+    <h2>Mapa de focos de calor</h2>
+    <p class="sub">Cada punto es un píxel de 375 m donde un satélite detectó fuego. Pasa el cursor sobre un departamento o un ANP para ver sus cifras.</p>
+    <div class="filtros">
+      <label><input type="checkbox" data-grupo="0" checked> Vegetación natural</label>
+      <label><input type="checkbox" data-grupo="1" checked> Cultivo</label>
+      <label><input type="checkbox" data-grupo="2" checked> Otro</label>
+      <span class="seg" id="periodo">
+        <button aria-pressed="true" data-dias="60">60 días</button><button aria-pressed="false" data-dias="7">Últimos 7 días</button>
+      </span>
+      <label><input type="checkbox" id="coropleta"> Colorear departamentos por densidad</label>
+    </div>
+    <div id="mapa" role="img" aria-label="Mapa del Perú con los focos de calor de los últimos 60 días"></div>
+    <div class="leyenda" id="leyenda-mapa"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="tarjeta">
+      <h2>Distritos más afectados</h2>
+      <p class="sub" id="sub-distritos"></p>
+      <div class="filtros">
+        <span class="seg" id="metrica">
+          <button aria-pressed="true" data-m="focos_veg">Focos</button><button aria-pressed="false" data-m="veg_100km2">Por 100 km²</button>
+        </span>
+        <select id="filtro-dep" aria-label="Filtrar por departamento"></select>
+      </div>
+      <div class="barras" id="distritos"></div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Áreas naturales protegidas más afectadas</h2>
+      <p class="sub">Focos en vegetación natural dentro de ANP nacionales y regionales.</p>
+      <div class="barras" id="anps"></div>
+    </section>
+  </div>
+
+  <div class="grid2">
+    <section class="tarjeta">
+      <h2>¿Qué se quemó?</h2>
+      <p class="sub">Cobertura mayoritaria bajo cada foco, según ESA WorldCover 2021.</p>
+      <div class="barras" id="coberturas"></div>
+    </section>
+
+    <section class="tarjeta" id="serie">
+      <h2>Focos por día</h2>
+      <p class="sub">Todo el Perú, por tipo de cobertura.</p>
+      <div id="serie-svg"></div>
+      <div class="leyenda" id="leyenda-serie"></div>
+    </section>
+  </div>
+
+  <section class="tarjeta">
+    <h2>Departamentos</h2>
+    <p class="sub">Haz clic en un encabezado para ordenar.</p>
+    <div class="tabla-env"><table id="tabla-dep"></table></div>
+  </section>
+
+  <section class="tarjeta metodo">
+    <h2>Método y limitaciones</h2>
+    <h3>Cómo se calculó</h3>
+    <ul>
+      <li><b>Focos:</b> NASA FIRMS, VIIRS S-NPP, NOAA-20 y NOAA-21 (versión NRT), confianza nominal o alta. Se conservan los que caen dentro de un distrito del Perú (límites INEI).</li>
+      <li><b>Cobertura:</b> a cada foco se le asigna la clase mayoritaria de ESA WorldCover 2021 en una ventana de ≈ 400 m (su huella), leída a ≈ 80 m por píxel.
+        <i>Vegetación natural</i> = bosque, matorral, pastizal, humedal, manglar y musgo; <i>Otro</i> = construido, suelo desnudo, nieve y agua.</li>
+      <li><b>Zonas más afectadas:</b> se ordenan por focos en vegetación natural, en total y por 100 km² (áreas en proyección de igual área; mínimo 20 focos para la densidad).</li>
+      <li><b>ANP:</b> nacionales y regionales de SERNANP; las privadas se excluyen por su tamaño frente al píxel de 375 m.</li>
+    </ul>
+    <h3>Limitaciones</h3>
+    <ul>
+      <li><b>Un foco no es un incendio.</b> Un mismo incendio genera muchos focos (varios píxeles, días y satélites): los focos miden actividad de fuego, no número de incendios.</li>
+      <li><b>"Bosque" en la selva suele ser roza y quema.</b> WorldCover es de 2021: un terreno talado y quemado para chacra todavía figura como bosque. "Cultivo" subestima las quemas agrícolas.</li>
+      <li><b>VIIRS no ve</b> fuegos pequeños, bajo dosel cerrado o tapados por nubes y humo.</li>
+      <li><b>Periodo:</b> 60 días no cubren toda la temporada, y no hay comparación con años anteriores.</li>
+      <li><b>ANP:</b> la capa es una copia publicada de SERNANP y tiene menos áreas regionales que el registro vigente.</li>
+    </ul>
+  </section>
+
+  <footer>Ejercicio calificado 1 · Diplomado de Ciencia de Datos · Fuentes: NASA FIRMS, ESA WorldCover, INEI, SERNANP. Código: <code>incendios.ipynb</code>.</footer>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const DATOS = /*DATOS*/null;
+
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = (n, d = 0) => Number(n).toLocaleString("es-PE", { minimumFractionDigits: d, maximumFractionDigits: d });
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const titulo = s => String(s).toLowerCase().replace(/(^|[\s-])(\p{L})/gu, (m, a, b) => a + b.toUpperCase())
+  .replace(/ (De|Del|La|Las|Los|Y) /g, w => w.toLowerCase());
+const VAR_GRUPO = ["--veg", "--cultivo", "--otro"];
+const colorGrupo = i => css(VAR_GRUPO[i]);
+const indiceGrupo = g => DATOS.grupos.indexOf(g);
+const fecha = dia => { const d = new Date(DATOS.inicio + "T12:00:00"); d.setDate(d.getDate() + dia); return d; };
+const fechaCorta = d => d.toLocaleDateString("es-PE", { day: "numeric", month: "short" });
+const fechaLarga = d => d.toLocaleDateString("es-PE", { day: "numeric", month: "long", year: "numeric" });
+const N_DIAS = DATOS.serie[DATOS.grupos[0]].length;
+
+// Tooltip compartido
+const tip = document.getElementById("tooltip");
+function mostrarTip(html, e) {
+  tip.innerHTML = html; tip.style.display = "block";
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + 14, y = e.clientY + 14;
+  if (x + w > innerWidth - 8) x = e.clientX - w - 14;
+  if (y + h > innerHeight - 8) y = e.clientY - h - 14;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const ocultarTip = () => { tip.style.display = "none"; };
+const tFila = (k, v) => `<div class="t-fila"><span>${k}</span><span>${v}</span></div>`;
+
+// Encabezado y KPIs
+const R = DATOS.resumen;
+document.getElementById("meta").textContent =
+  `Del ${fechaLarga(fecha(0))} al ${fechaLarga(fecha(N_DIAS - 1))} (fecha de corte) · NASA FIRMS (VIIRS) · ESA WorldCover 2021`;
+const kpis = [
+  [fmt(R.focos_veg), "focos en vegetación natural", `${fmt(R.focos_veg / R.focos * 100, 1)} % de ${fmt(R.focos)} focos`],
+  [fmt(R.distritos_veg), "distritos con fuego en vegetación", "de 1,873 distritos del país"],
+  [fmt(R.focos_cultivo), "focos sobre cultivos", "probables quemas agrícolas"],
+  [fmt(R.en_anp), "focos dentro de ANP", `${R.anp_afectadas} áreas protegidas con fuego`],
+  [fmt(R.ultima_semana), "focos en los últimos 7 días", "actividad reciente"],
+];
+document.getElementById("kpis").innerHTML = kpis.map(([v, e, n]) =>
+  `<div class="tarjeta kpi"><div class="valor">${v}</div><div class="etiqueta">${e}</div><div class="nota">${n}</div></div>`).join("");
+
+// ---------- Mapa ----------
+const mapa = L.map("mapa", { zoomAnimation: false, zoomSnap: 0.25, minZoom: 4 }).setView([-9.3, -75], 5);
+const oscuro = () => matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.dataset.theme !== "light"
+  || document.documentElement.dataset.theme === "dark";
+L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${oscuro() ? "Dark" : "Light"}_Gray_Base/MapServer/tile/{z}/{y}/{x}`, {
+  attribution: "Mapa base &copy; Esri", maxZoom: 16,
+}).addTo(mapa);
+
+const SEQ = ["--seq-1", "--seq-2", "--seq-3", "--seq-4", "--seq-5", "--seq-6"].map(css);
+const dens = DATOS.departamentos.features.map(f => f.properties.veg_100km2).sort((a, b) => a - b);
+const cortes = [0.2, 0.4, 0.6, 0.8, 0.95].map(q => dens[Math.floor(q * (dens.length - 1))]);
+const colorDens = v => SEQ[cortes.filter(c => v > c).length];
+
+const capaDep = L.geoJSON(DATOS.departamentos, {
+  style: () => ({ color: css("--text-3"), weight: 0.8, fillOpacity: 0, fillColor: "transparent" }),
+  onEachFeature: (f, capa) => {
+    const p = f.properties;
+    capa.bindTooltip(() =>
+      `<b>${esc(titulo(p.DEPARTAMEN))}</b>` +
+      tFila("Focos en vegetación", fmt(p.focos_veg)) +
+      tFila("Por 100 km²", fmt(p.veg_100km2, 1)) +
+      tFila("Focos sobre cultivos", fmt(p.focos_cultivo)) +
+      tFila("Últimos 7 días", fmt(p.focos_7d)) +
+      tFila("Cobertura principal", esc(p.cobertura_principal || "—")), { sticky: true });
+    capa.on({ mouseover: () => capa.setStyle({ weight: 2 }), mouseout: () => capa.setStyle({ weight: 0.8 }) });
+  },
+}).addTo(mapa);
+
+const capaAnp = L.geoJSON(DATOS.anp, {
+  style: () => ({ color: css("--anp"), weight: 1.2, dashArray: "3 3", fillColor: css("--anp"), fillOpacity: 0.06 }),
+  onEachFeature: (f, capa) => {
+    const p = f.properties;
+    capa.bindTooltip(`<b>${esc(p.nombre)}</b><br><span style="color:var(--text-3)">${esc(p.categoria)}</span>` +
+      tFila("Focos en vegetación", fmt(p.focos_veg)) + tFila("Últimos 7 días", fmt(p.focos_7d)), { sticky: true });
+  },
+}).addTo(mapa);
+
+// Los ~90 mil puntos se dibujan en un solo canvas: con un marcador por punto el mapa se congela
+const P = DATOS.puntos;
+const filtro = { grupos: new Set([0, 1, 2]), dias: 60 };
+const CapaPuntos = L.Layer.extend({
+  onAdd(m) {
+    this._c = L.DomUtil.create("canvas", "capa-puntos");
+    m.getPanes().overlayPane.appendChild(this._c);
+    m.on("moveend zoomend resize", this.dibujar, this);
+    this.dibujar();
+  },
+  onRemove(m) { this._c.remove(); m.off("moveend zoomend resize", this.dibujar, this); },
+  dibujar() {
+    const m = this._map, s = m.getSize(), dpr = devicePixelRatio || 1, c = this._c;
+    L.DomUtil.setPosition(c, m.containerPointToLayerPoint([0, 0]));
+    c.width = s.x * dpr; c.height = s.y * dpr; c.style.width = s.x + "px"; c.style.height = s.y + "px";
+    const ctx = c.getContext("2d");
+    ctx.scale(dpr, dpr);
+    const z = m.getZoom(), r = z < 6 ? 1.1 : z < 8 ? 1.8 : 2.8;
+    const desde = N_DIAS - filtro.dias;
+    ctx.globalAlpha = z < 6 ? 0.55 : 0.75;
+    // Se dibuja primero "Otro" y al final vegetación, para que el grupo principal quede arriba
+    for (const g of [2, 1, 0]) {
+      if (!filtro.grupos.has(g)) continue;
+      ctx.fillStyle = colorGrupo(g);
+      ctx.beginPath();
+      for (let i = 0; i < P.lat.length; i++) {
+        if (P.grupo[i] !== g || P.dia[i] < desde) continue;
+        const p = m.latLngToContainerPoint([P.lat[i], P.lon[i]]);
+        if (p.x < -4 || p.y < -4 || p.x > s.x + 4 || p.y > s.y + 4) continue;
+        ctx.moveTo(p.x + r, p.y); ctx.arc(p.x, p.y, r, 0, 6.2832);
+      }
+      ctx.fill();
+    }
+  },
+});
+const capaPuntos = new CapaPuntos().addTo(mapa);
+mapa.fitBounds(capaDep.getBounds(), { padding: [4, 4] });
+
+document.querySelectorAll("[data-grupo]").forEach(cb => cb.addEventListener("change", () => {
+  const g = +cb.dataset.grupo; cb.checked ? filtro.grupos.add(g) : filtro.grupos.delete(g); capaPuntos.dibujar();
+}));
+segmentado("periodo", b => { filtro.dias = +b.dataset.dias; capaPuntos.dibujar(); });
+document.getElementById("coropleta").addEventListener("change", e => {
+  capaDep.setStyle(f => e.target.checked
+    ? { fillColor: colorDens(f.properties.veg_100km2), fillOpacity: 0.6 }
+    : { fillOpacity: 0 });
+  document.getElementById("leyenda-dens").style.display = e.target.checked ? "inline-flex" : "none";
+});
+document.getElementById("leyenda-mapa").innerHTML =
+  DATOS.grupos.map((g, i) => `<span><i class="punto" style="background:${colorGrupo(i)}"></i>${g}</span>`).join("") +
+  `<span><i class="linea"></i>Área natural protegida</span>` +
+  `<span id="leyenda-dens" style="display:none"><i class="rampa"></i>Focos en vegetación por 100 km² (menos → más)</span>`;
+
+function segmentado(id, alCambiar) {
+  const cont = document.getElementById(id);
+  cont.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    cont.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    alCambiar(b);
+  });
+}
+
+// ---------- Barras horizontales ----------
+function barras(contenedor, filas, valor, etiqueta, detalle) {
+  const max = Math.max(...filas.map(valor), 1);
+  contenedor.innerHTML = filas.map((f, i) =>
+    `<div class="fila" data-i="${i}"><div class="nombre">${etiqueta(f)}</div>` +
+    `<div class="pista"><div class="barra" style="width:${valor(f) / max * 78}%">` +
+    `<i style="flex:1;background:${colorGrupo(0)}"></i></div><span class="num">${detalle(f)}</span></div></div>`).join("");
+  return filas;
+}
+function conTooltip(contenedor, filas, html) {
+  contenedor.onmousemove = e => {
+    const fila = e.target.closest(".fila");
+    fila ? mostrarTip(html(filas[+fila.dataset.i]), e) : ocultarTip();
+  };
+  contenedor.onmouseleave = ocultarTip;
+}
+const tipZona = (titulo, f) => `<b>${titulo}</b>` +
+  tFila("Focos en vegetación", fmt(f.focos_veg)) +
+  tFila("Por 100 km²", fmt(f.veg_100km2, 1)) +
+  tFila("Focos sobre cultivos", fmt(f.focos_cultivo)) +
+  tFila("Últimos 7 días", fmt(f.focos_7d)) +
+  tFila("Intensidad total (FRP)", fmt(f.frp_mw) + " MW") +
+  tFila("Cobertura principal", esc(f.cobertura_principal || "—"));
+
+// Distritos
+const selDep = document.getElementById("filtro-dep");
+const deps = [...new Set(DATOS.distritos.map(d => d.DEPARTAMEN))].sort();
+selDep.innerHTML = `<option value="">Todo el Perú</option>` + deps.map(d => `<option value="${esc(d)}">${esc(titulo(d))}</option>`).join("");
+let metrica = "focos_veg";
+function pintarDistritos() {
+  let filas = DATOS.distritos.filter(d => !selDep.value || d.DEPARTAMEN === selDep.value);
+  if (metrica === "veg_100km2") filas = filas.filter(d => d.focos_veg >= 20);
+  filas = filas.sort((a, b) => b[metrica] - a[metrica]).slice(0, 15);
+  document.getElementById("sub-distritos").textContent = metrica === "focos_veg"
+    ? "Los 15 distritos con más focos en vegetación natural."
+    : "Los 15 distritos con más focos en vegetación por 100 km² (mínimo 20 focos). Corrige el tamaño del distrito.";
+  const cont = document.getElementById("distritos");
+  barras(cont, filas, f => f[metrica],
+    f => `${esc(titulo(f.DISTRITO))} <small>${esc(titulo(f.DEPARTAMEN))}</small>`,
+    f => metrica === "focos_veg" ? fmt(f.focos_veg) : fmt(f.veg_100km2, 1));
+  conTooltip(cont, filas, f => tipZona(`${esc(titulo(f.DISTRITO))} · ${esc(titulo(f.PROVINCIA))}, ${esc(titulo(f.DEPARTAMEN))}`, f));
+}
+segmentado("metrica", b => { metrica = b.dataset.m; pintarDistritos(); });
+selDep.addEventListener("change", pintarDistritos);
+pintarDistritos();
+
+// ANP
+const anps = DATOS.anps.slice().sort((a, b) => b.focos_veg - a.focos_veg).slice(0, 12);
+const contAnp = document.getElementById("anps");
+barras(contAnp, anps, f => f.focos_veg, f => `${esc(f.nombre)} <small>${esc(f.categoria)}</small>`, f => fmt(f.focos_veg));
+conTooltip(contAnp, anps, f => tipZona(`${esc(f.nombre)}<br><span style="color:var(--text-3)">${esc(f.categoria)} · ${esc(f.Clase)}</span>`, f));
+
+// Coberturas
+const cobs = DATOS.coberturas;
+const totalCob = cobs.reduce((s, c) => s + c.focos, 0);
+const contCob = document.getElementById("coberturas");
+const maxCob = Math.max(...cobs.map(c => c.focos));
+contCob.innerHTML = cobs.map((c, i) =>
+  `<div class="fila" data-i="${i}"><div class="nombre">${esc(c.cobertura)} <small>${esc(c.grupo)}</small></div>` +
+  `<div class="pista"><div class="barra" style="width:${Math.max(c.focos / maxCob * 78, 0.4)}%"><i style="flex:1;background:${colorGrupo(indiceGrupo(c.grupo))}"></i></div>` +
+  `<span class="num">${fmt(c.focos / totalCob * 100, 1)} %</span></div></div>`).join("");
+conTooltip(contCob, cobs, c => `<b>${esc(c.cobertura)}</b>` + tFila("Grupo", esc(c.grupo)) +
+  tFila("Focos", fmt(c.focos)) + tFila("Del total", fmt(c.focos / totalCob * 100, 1) + " %"));
+
+// ---------- Serie diaria (columnas apiladas) ----------
+function pintarSerie() {
+  const cont = document.getElementById("serie-svg");
+  const W = cont.clientWidth || 520, H = 220, m = { t: 10, r: 8, b: 24, l: 40 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const grupos = DATOS.grupos;
+  const tot = Array.from({ length: N_DIAS }, (_, d) => grupos.reduce((s, g) => s + DATOS.serie[g][d], 0));
+  const paso = 10 ** Math.floor(Math.log10(Math.max(...tot))), maxY = Math.ceil(Math.max(...tot) / paso) * paso;
+  const y = v => m.t + ih - v / maxY * ih, bw = iw / N_DIAS;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Focos de calor por día">`;
+  for (let k = 0; k <= 4; k++) {
+    const v = maxY * k / 4;
+    s += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="${css("--grid")}"/>` +
+      `<text x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
+  }
+  for (let d = 0; d < N_DIAS; d++) {
+    let base = 0;
+    const x = m.l + d * bw + 1, w = Math.max(bw - 2, 1);
+    grupos.forEach((g, i) => {
+      const v = DATOS.serie[g][d]; if (!v) return;
+      const y0 = y(base), y1 = y(base + v);
+      // 2 px de separación entre segmentos; el de arriba lleva la punta redondeada
+      s += `<rect x="${x}" y="${y1}" width="${w}" height="${Math.max(y0 - y1 - (base ? 2 : 0), 0.5)}" fill="${colorGrupo(i)}" rx="${i === grupos.length - 1 || base + v === tot[d] ? 1.5 : 0}"/>`;
+      base += v;
+    });
+    if (d % 7 === 0) s += `<text x="${x + w / 2}" y="${H - 6}" text-anchor="middle">${fechaCorta(fecha(d))}</text>`;
+  }
+  s += `<line id="cruz" x1="0" x2="0" y1="${m.t}" y2="${m.t + ih}" stroke="${css("--text-3")}" stroke-dasharray="2 2" visibility="hidden"/>`;
+  s += `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" id="zona-serie"/></svg>`;
+  cont.innerHTML = s;
+  const zona = cont.querySelector("#zona-serie"), cruz = cont.querySelector("#cruz"), svg = cont.querySelector("svg");
+  zona.addEventListener("mousemove", e => {
+    const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
+    const d = Math.min(N_DIAS - 1, Math.max(0, Math.floor((px - m.l) / bw)));
+    const cx = m.l + d * bw + bw / 2;
+    cruz.setAttribute("x1", cx); cruz.setAttribute("x2", cx); cruz.setAttribute("visibility", "visible");
+    mostrarTip(`<b>${fechaLarga(fecha(d))}</b>` + grupos.map((g, i) =>
+      `<div class="t-fila"><span><i class="punto" style="background:${colorGrupo(i)};width:8px;height:8px"></i> ${g}</span><span>${fmt(DATOS.serie[g][d])}</span></div>`).join("") +
+      tFila("<b>Total</b>", `<b>${fmt(tot[d])}</b>`), e);
+  });
+  zona.addEventListener("mouseleave", () => { cruz.setAttribute("visibility", "hidden"); ocultarTip(); });
+}
+pintarSerie();
+addEventListener("resize", pintarSerie);
+document.getElementById("leyenda-serie").innerHTML =
+  DATOS.grupos.map((g, i) => `<span><i class="punto" style="background:${colorGrupo(i)}"></i>${g}</span>`).join("");
+
+// ---------- Tabla de departamentos ----------
+const COLS = [
+  ["DEPARTAMEN", "Departamento", v => esc(titulo(v))],
+  ["focos_veg", "Focos en vegetación", v => fmt(v)],
+  ["pct_veg", "% en vegetación", v => fmt(v, 1)],
+  ["veg_100km2", "Por 100 km²", v => fmt(v, 1)],
+  ["focos_cultivo", "Sobre cultivos", v => fmt(v)],
+  ["focos_7d", "Últimos 7 días", v => fmt(v)],
+  ["focos_en_anp", "En ANP", v => fmt(v)],
+  ["cobertura_principal", "Cobertura principal", v => esc(v || "—")],
+];
+const filasDep = DATOS.departamentos.features.map(f => f.properties).filter(p => p.focos_veg > 0);
+let orden = { col: "focos_veg", desc: true };
+function pintarTabla() {
+  const filas = filasDep.slice().sort((a, b) => {
+    const x = a[orden.col], y = b[orden.col];
+    const c = typeof x === "string" ? String(x).localeCompare(y) : x - y;
+    return orden.desc ? -c : c;
+  });
+  document.getElementById("tabla-dep").innerHTML =
+    `<thead><tr>${COLS.map(([k, n]) => `<th data-k="${k}"${k === orden.col ? ` aria-sort="${orden.desc ? "descending" : "ascending"}"` : ""}>${n}${k === orden.col ? (orden.desc ? " ↓" : " ↑") : ""}</th>`).join("")}</tr></thead>` +
+    `<tbody>${filas.map(p => `<tr>${COLS.map(([k, , f]) => `<td>${f(p[k])}</td>`).join("")}</tr>`).join("")}</tbody>`;
+}
+document.getElementById("tabla-dep").addEventListener("click", e => {
+  const th = e.target.closest("th"); if (!th) return;
+  orden = { col: th.dataset.k, desc: orden.col === th.dataset.k ? !orden.desc : th.dataset.k !== "DEPARTAMEN" && th.dataset.k !== "cobertura_principal" };
+  pintarTabla();
+});
+pintarTabla();
+</script>
+</body>
+</html>
