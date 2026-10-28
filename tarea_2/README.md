@@ -1,6 +1,6 @@
 # Tarea 2 · Voces y documentos peruanos
 
-**Dashboard en línea:** _(se agrega al desplegar en Streamlit Community Cloud)_
+**Dashboard en línea:** https://voces-y-documentos-peruanos.streamlit.app/
 
 ## Pregunta del proyecto
 
@@ -149,6 +149,8 @@ streamlit run app.py
 ```
 
 El dashboard se abre en http://localhost:8501. No necesita modelos ni claves: lee los CSV de `datos/`.
+
+**Despliegue:** Streamlit Community Cloud, desde este repositorio, con archivo principal `tarea_2/app.py` y Python 3.12. Usa el mismo `requirements.txt` y no necesita secretos.
 
 ### Notebooks
 Los notebooks se entregan ejecutados. Para volver a correrlos se necesitan el corpus original y dos entornos:
