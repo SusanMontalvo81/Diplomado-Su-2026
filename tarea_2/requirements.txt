@@ -1,0 +1,7 @@
+# Dependencias del dashboard (app.py), probadas con Python 3.12 en Mac Intel y en Streamlit Community Cloud.
+# El dashboard solo lee los CSV de datos/: no necesita PaddleOCR, Whisper ni el LLM.
+#   pip install -r requirements.txt
+streamlit==1.42.2
+pandas==2.2.3
+numpy==1.26.4
+plotly==6.0.0

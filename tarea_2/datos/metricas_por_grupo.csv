@@ -1,0 +1,25 @@
+grupo,modelo,error,metrica
+impreso,PaddleOCR por defecto (línea base),0.0729,CER
+foto,PaddleOCR por defecto (línea base),0.4819,CER
+manuscrito,PaddleOCR por defecto (línea base),0.5653,CER
+impreso,PaddleOCR ajustado (Parte 1),0.0087,CER
+foto,PaddleOCR ajustado (Parte 1),0.4368,CER
+manuscrito,PaddleOCR ajustado (Parte 1),0.4872,CER
+impreso,Tesseract 5.5,0.0087,CER
+foto,Tesseract 5.5,0.2358,CER
+manuscrito,Tesseract 5.5,0.6739,CER
+calle,Whisper small (línea base),0.264,WER
+"fiesta, ruido",Whisper small (línea base),0.4413,WER
+"marcha, ruido",Whisper small (línea base),0.4005,WER
+testimonio,Whisper small (línea base),0.1826,WER
+"lectura, estudio",Whisper small (línea base),0.037,WER
+calle,Whisper large-v3-turbo,0.2327,WER
+"fiesta, ruido",Whisper large-v3-turbo,0.419,WER
+"marcha, ruido",Whisper large-v3-turbo,0.4096,WER
+testimonio,Whisper large-v3-turbo,0.1391,WER
+"lectura, estudio",Whisper large-v3-turbo,0.037,WER
+calle,Qwen3-ASR 0.6B,0.3432,WER
+"fiesta, ruido",Qwen3-ASR 0.6B,0.5196,WER
+"marcha, ruido",Qwen3-ASR 0.6B,0.4371,WER
+testimonio,Qwen3-ASR 0.6B,0.2087,WER
+"lectura, estudio",Qwen3-ASR 0.6B,0.037,WER
