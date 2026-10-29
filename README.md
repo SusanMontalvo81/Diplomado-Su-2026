@@ -1,5 +1,5 @@
 # Diplomado-Su-2026
-Este es mi proyecto personal para aprender a aprovechar las herramientas de Python
+Este es mi proyecto personal para utilizar las herramientas de Python
 # Students
 1. Susan
 2. Renzo
