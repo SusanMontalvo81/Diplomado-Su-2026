@@ -88,7 +88,7 @@ tarea_1/
 Requiere Python 3.12.
 
 ```bash
-git clone https://github.com/SusanMontalvo81/Diplomado-Su-2026.git
+git clone https://github.com/susan-montalvo/Diplomado-Su-2026.git
 cd Diplomado-Su-2026/tarea_1
 python3.12 -m venv .venv
 source .venv/bin/activate

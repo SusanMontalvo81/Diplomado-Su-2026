@@ -35,7 +35,7 @@ from scipy.signal import resample_poly
 
 CARPETA = Path(__file__).resolve().parent / "datos" / "raw" / "audio"
 SR = 16_000
-UA = {"User-Agent": "diplomado-ds-python-tarea2/2026 (estudiante; https://github.com/SusanMontalvo81/Diplomado-Su-2026)"}
+UA = {"User-Agent": "diplomado-ds-python-tarea2/2026 (estudiante; https://github.com/susan-montalvo/Diplomado-Su-2026)"}
 PAUSA = 1.5  # segundos entre solicitudes
 API = "https://commons.wikimedia.org/w/api.php"
 
