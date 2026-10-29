@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "bcrp": {
+      "command": "uv",
+      "args": ["run", "server.py"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["--with", "cryptography<49", "mcp-server-fetch"]
+    }
+  }
+}
